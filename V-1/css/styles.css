@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=Roboto+Condensed:wght@400;700&display=swap');
+/* 
+font-family: 'Inter', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+*/
+
+/* -------------------------------------
+     Variables
+  ------------------------------------- */
+:root {
+    --primary-color: #d90429;
+    --secondary-color: brown;
+
+    --white: #ffffff;
+    --black: #000000;
+
+    --font-color: #667085;
+    --font-color-light: #98a2b3;
+
+    --primary-font-family: 'Inter', sans-serif;
+    --secondary-font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+
+/* -------------------------------------
+      Reset Styles
+  ------------------------------------- */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    background: var(--white);
+    font-display: swap;
+    font-size: 0.936rem;
+    font-family: var(--primary-font-family);
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3);
+}
+
+body {
+    overflow-y: auto;
+    height: auto;
+}
+
+/* -------------------------------------
+      Header
+  ------------------------------------- */
+.c-header {
+    align-items: center;
+    border-bottom: 1px solid rgba(141, 153, 174, 0.5);
+    box-sizing: border-box;
+    padding: 24px 42px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 86px;
+    width: 100%;
+    z-index: 2;
+}
+
+.c-header .logo {
+    display: grid;
+    place-items: center;
+    justify-content: flex-start;
+}
+
+.c-header .logo img {
+    max-height: 60px;
+}
+
+
+.c-header .menus>ul,
+.c-header .settings>ul {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.c-header .menus>ul>li a,
+.c-header .settings>ul>li a,
+.c-header .menus>ul>li button,
+.c-header .settings>ul>li button {
+    border: 0;
+    background-color: transparent;
+    color: var(--white);
+    font: 400 1rem/1.2rem var(--font-color-light);
+    padding: 6px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: background-color 0.4s ease;
+    outline: none;
+}
+
+.c-header .menus>ul>li a:hover,
+.c-header .menus>ul>li.active a,
+.c-header .menus>ul>li button:hover,
+.c-header .settings>ul>li button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.subMenus .dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.9);
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+    border-radius: 0;
+    margin-top: -2px !important;
+}
+
+.subMenus .dropdown-menu.show {
+    display: flex;
+}
+
+.subMenus .dropdown-menu>li>a {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2) !important;
+    display: block !important;
+    font-size: 0.8rem !important;
+    padding: 8px 16px !important;
+    width: 200px;
+}
+
+.subMenus .dropdown-menu>li:last-child>a {
+    border: 0 !important;
+}
+
+.c-header .settings {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.menuWithIcon {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+
+.menuWithIcon .icon {
+    font-size: 0.9rem;
+}
+
+.hambMenu {
+    background-color: transparent;
+    border: 0;
+    color: var(--white);
+    font-size: 1.7rem;
+    padding: 0;
+    height: 32px;
+    width: 32px;
+}
+
+.c-sidebar {
+    background-color: #2f2f2f;
+    color: var(--white);
+}
+
+.c-sidebar .btn-close {
+    color: var(--white) !important;
+}
+
+.mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.mobile-menu ul>li>a {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    display: block;
+    background-color: transparent;
+    color: var(--white);
+    font: 400 0.8rem/1.2rem var(--font-color-light);
+    padding: 14px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: background-color 0.4s ease;
+    outline: none;
+}
+
+@media screen and (max-width: 768px) {
+    .c-header {
+        background-color: #2f2f2f;
+        padding: 12px 24px;
+        position: relative;
+        height: auto;
+        width: 100%;
+    }
+}
+
+/* -------------------------------------
+      Banner Slider
+  ------------------------------------- */
+.c-banner.type-01 {
+    position: relative;
+}
+
+.c-banner.type-01 .pageSlider .item {
+    display: block;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+}
+
+.c-banner.type-01 .pageSlider .sliderItem img {
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.c-banner.type-01 .pageSlider .sliderItem::before {
+    background-image: url(../images/layer.png);
+    content: "";
+    background-size: contain;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.c-banner.type-01 .info-section {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: calc(50% - 30%);
+    height: 100%;
+    width: 60%;
+    z-index: 1;
+}
+
+.c-heading {
+    display: block;
+    color: var(--white);
+    font: 400 1rem/1.2rem var(--secondary-font-family);
+}
+
+.c-heading.h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3.2rem;
+}
+
+.c-heading.h2 {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+}
+
+
+.iconBox {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+}
+
+.iconBox .icon {
+    background-color: rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    color: var(--white);
+    cursor: pointer;
+    display: grid;
+    font-size: 2.4rem;
+    place-items: center;
+    padding: 25px;
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    border-radius: 100px;
+    transition: background-color ease 0.3s;
+}
+
+.iconBox:hover .icon {
+    background-color: var(--primary-color);
+}
+
+.iconBox .heading {
+    color: rgba(255, 255, 255, 0.8);
+    font: 700 1.2rem/1.4rem var(--secondary-font-family);
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+    .c-banner.type-01 .info-section {
+        background-color: #898989;
+        position: relative;
+        height: auto;
+        left: auto;
+        padding: 24px;
+        width: 100%;
+    }
+
+    .c-heading.h1 {
+        font-size: 1.8rem;
+        line-height: 2.1rem;
+    }
+
+    .c-heading.h2 {
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+    }
+
+    .iconBox .icon {
+        font-size: 2rem;
+        padding: 16px;
+        height: 80px;
+        width: 80px;
+    }
+
+    .iconBox .heading {
+        font-size: 1rem;
+    }
+}

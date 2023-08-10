@@ -1,0 +1,59 @@
+.adv-sec {
+  background-image: url("../images/green-nature.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center -80.225px;
+}
+
+.adv-sec {
+  min-height: 300px;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin: 30px 0;
+}
+
+.adv-sec .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.adv-sec .download-app h2 {
+  color: #ffffff;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.adv-sec .download-app a {
+  padding: 10px 15px 10px 15px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.adv-sec .download-app a:last-child {
+  margin-right: 0;
+}
+
+.adv-sec .download-app a i {
+  color: #ffffff;
+  font-size: 16px;
+  margin-right: 8px;
+}
+
+.btn.btn-transparent {
+  background: transparent !important;
+  border-color: #ffffff;
+  color: #ffffff;
+  border-radius: 15px;
+}
+.btn.btn-transparent:hover {
+  background: var(--btnHover) !important;
+  border-color: transparent;
+  color: #ffffff;
+  transition: all 0.5s ease !important;
+}

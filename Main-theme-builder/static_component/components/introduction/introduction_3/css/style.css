@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.btn:focus {
+    box-shadow: none;
+}
+
+
+/*********** About Gallery Section Start *************/
+
+.us-gallery-section {
+    font-family: 'Roboto', sans-serif;
+}
+
+.us-gallery-details {
+    padding: 48px 0;
+}
+
+.us-gallery-title {
+    color: #4f4b8b;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.us-gallery-discription,
+.us-gallery-discription a {
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.us-gallery-slider-title {
+    margin-top: 32px;
+    margin-bottom: 16px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.4;
+    color: #312d65;
+}
+
+.us-gallery-img img {
+    border-radius: 5px 5px 0 0;
+}
+
+.us-gallery-item-title {
+    padding: 12px;
+    text-align: center;
+    color: #312d65;
+    font-size: 14px;
+    margin-bottom: 0;
+    border-radius: 0 0 5px 5px;
+}
+
+.us-gallery-item {
+    padding: 15px;
+    border-radius: 5px;
+}
+
+
+/*********** About Gallery Section End *************/
+
+
+/******** Responsive Start *************/
+
+@media (min-width: 1400px) {
+    .us-gallery-section .container {
+        max-width: 1200px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .us-gallery-men-img {
+        padding-top: 115px;
+    }
+}
+
+
+/******** Responsive End *************/

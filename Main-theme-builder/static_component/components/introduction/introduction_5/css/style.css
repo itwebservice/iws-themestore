@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  font-family: "Poppins";
+}
+
+.intro-sec {
+  margin: 50px 0;
+  padding: 130px 0;
+}
+
+.cover-background {
+  position: relative !important;
+  background-size: cover !important;
+  overflow: hidden !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+.overflow-hidden {
+  overflow: hidden !important;
+}
+
+.bg-medium-light-gray {
+  background-color: #ededed;
+}
+
+.w-90 {
+  width: 90%;
+}
+
+.offset-lg-6 {
+  margin-left: 50%;
+}
+.col-lg-6 {
+  flex: 0 0 auto;
+  width: 50%;
+}
+.last-paragraph-no-margin p:last-of-type {
+  margin-bottom: 0;
+}
+
+.font-weight-600 {
+  font-weight: 600;
+}
+
+.text-extra-dark-gray,
+.btn.text-extra-dark-gray {
+  color: #232323;
+}
+
+.icon-extra-medium {
+  font-size: 40px;
+}
+
+.text-medium {
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.margin-10px-bottom {
+  margin-bottom: 10px;
+}
+
+.margin-20px-bottom {
+  margin-bottom: 20px;
+}
+
+.margin-5px-bottom {
+  margin-bottom: 5px;
+}
+
+.margin-60px-bottom {
+  margin-bottom: 60px;
+}
+.sm-no-padding-lr {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.intro-cont {
+  margin-bottom: 60px;
+}
+.text-deep-pink,
+.btn.text-deep-pink {
+  color: var(--primaryColor);
+}
+.intro-cont h5 {
+  font-weight: 600;
+  color: #232323;
+  font-family: "Poppins";
+  font-size: 30px;
+  line-height: 40px;
+  margin-bottom: 15px;
+}
+.intro-cont p {
+  margin-bottom: 0;
+  width: 90%;
+  margin-bottom: 15px;
+}
+.intro-sub-cont {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 991px) {
+  .md-no-background-img {
+    background-image: none !important;
+  }
+  .md-w-100 {
+    width: 100% !important;
+  }
+  .md-margin-30px-bottom {
+    margin-bottom: 30px;
+  }
+  .col-lg-6 {
+    width: 100%;
+  }
+  .offset-lg-6 {
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .text-lg-start {
+    text-align: left !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .sm-no-padding-lr {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  h2 {
+    font-size: 20px;
+    line-height: 25px;
+    margin: 0 0 17px;
+  }
+}
+
+@media (max-width: 575px) {
+  .xs-margin-40px-bottom {
+    margin-bottom: 40px;
+  }
+}

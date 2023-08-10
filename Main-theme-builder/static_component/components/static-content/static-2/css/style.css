@@ -1,0 +1,111 @@
+.static-sec {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.center-block {
+  margin-inline-end: 0;
+  margin-inline-start: 0;
+  float: none;
+  text-align: center;
+}
+
+.heading-style {
+  font-size: 32px;
+  font-family: "Dancing Script", cursive;
+  font-weight: 700 !important;
+  color: #f96768 !important;
+}
+
+.section-title h1,
+.section-title h2 {
+  margin-bottom: 0.5rem;
+  color: #4f4b8b;
+  font-size: 34px;
+  font-weight: 700 !important;
+  z-index: 1;
+}
+
+.section-title p {
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 0;
+  color: #797896;
+}
+
+.service-timeline .service-card-svg svg {
+  fill: white;
+}
+
+.service-card-svg svg {
+  width: 45px;
+  height: 45px;
+  margin: 0 auto;
+}
+
+.section-title {
+  padding-bottom: 3rem;
+}
+
+.service-time-line-main {
+  position: relative;
+  z-index: 1;
+}
+
+.service-timeline .service-card {
+  z-index: 1;
+}
+
+.icon-service {
+  display: block;
+  width: 120px;
+  height: 120px;
+  text-align: center;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  line-height: 120px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.text-purple {
+  color: #6d33ff !important;
+}
+
+.mt-3 {
+  margin-block-start: 0.75rem !important;
+}
+
+.mt-3 {
+  margin-top: 1rem !important;
+}
+
+.mb-0 {
+  margin-block-end: 0 !important;
+}
+
+.font-weight-semibold {
+  font-weight: 500;
+  font-size: 1.125rem;
+}
+
+@media (min-width: 992px) {
+  .service-time-line-main:before {
+    width: 80%;
+    height: 2px;
+    top: 60px;
+    display: block;
+    content: "";
+    position: absolute;
+    border: 1px dashed grey;
+    z-index: -1;
+    inset-inline-start: 10%;
+    inset-inline-end: auto;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .mb-lg-0 {
+    margin-block-end: 0 !important;
+  }
+}

@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* counter box style 1 */
+.cust-mg {
+  margin: 50px 0;
+}
+
+.counter-feature-box-1 {
+  height: 199px;
+}
+.counter-feature-box-1:hover {
+  background: var(--primaryColor);
+  border-color: var(--primaryColor);
+}
+
+.border-all {
+  border: 1px solid #ededed;
+}
+
+.padding-5px-all {
+  padding: 5px;
+}
+
+.icon-medium {
+  font-size: 35px;
+}
+
+.margin-15px-bottom {
+  margin-bottom: 15px;
+}
+
+.text-medium-gray,
+.btn.text-medium-gray {
+  color: #939393;
+}
+
+@media (max-width: 767px) {
+  .icon-medium {
+    font-size: 30px;
+  }
+  .xs-margin-15px-bottom {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 992px) {
+  .counter-feature-box-1 {
+    margin: 10px !important;
+  }
+}

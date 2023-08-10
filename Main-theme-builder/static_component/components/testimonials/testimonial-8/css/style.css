@@ -1,0 +1,105 @@
+.testimonial-sec {
+  background: url(../images/bg-tour.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.item-seven {
+  margin: 50px 0;
+  padding: 30px 0;
+}
+
+.testimonial-sec .reviews {
+  font-family: "Montserrat", sans-serif;
+}
+.testimonial-sec .review-box {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.testimonial-sec .review-box .prev-review-btn {
+  transform: rotate(90deg);
+  left: -15px;
+  top: 40%;
+}
+.testimonial-sec .review-box .next-review-btn {
+  transform: rotate(-90deg);
+  right: -15px;
+  top: 40%;
+}
+.testimonial-sec .review-box .prev-review-btn:hover,
+.testimonial-sec .review-box .next-review-btn:hover {
+  opacity: 1;
+  color: #ffffff;
+  cursor: pointer;
+}
+.testimonial-sec .review-box .navigate-btn {
+  display: inline-block;
+  position: absolute;
+  color: #ffffff;
+  opacity: 0.7;
+  transition: 0.8s ease;
+}
+.testimonial-sec .review-box .navigate-btn i {
+  color: #ffffff;
+}
+.testimonial-sec .review-box .navigate-btn span {
+  display: inline-block;
+  height: 2px;
+  width: 20px;
+  background-color: #ffffff;
+  opacity: 0.7;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+.testimonial-sec .reviews .review-body {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 15px;
+  padding-bottom: 80px;
+}
+.testimonial-sec .reviews .user-comment {
+  font-size: 16px;
+  font-weight: 300;
+}
+.testimonial-sec .reviews .comment-date {
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  font-size: 12px;
+  font-weight: 300;
+}
+.testimonial-sec .reviews .user-img {
+  height: 100px;
+  width: 100px;
+  border: solid 2px #ffffff;
+  border-radius: 50%;
+  margin-top: -50px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 1px 1px 15px #918f8f;
+}
+.testimonial-sec .reviews .user-name {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 15px;
+  margin-bottom: 3px;
+  color: #ffffff;
+}
+.testimonial-sec .reviews .user-designation {
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  font-size: 14px;
+  font-weight: 300;
+  color: #ffffff;
+  opacity: 0.7;
+}
+.testimonial-sec .reviews .review-stars {
+  margin-bottom: 0;
+}
+.testimonial-sec .reviews .review-stars li {
+  display: inline-block;
+}
+.testimonial-sec .reviews .review-stars li i {
+  color: #000000;
+  font-size: 18px;
+}

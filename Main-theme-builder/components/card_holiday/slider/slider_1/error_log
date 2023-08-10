@@ -1,0 +1,30 @@
+[23-Mar-2023 11:30:23 UTC] PHP Warning:  Undefined variable $tour_type_1 in /home/itourscloud/public_html/ui-element/components/card_holiday/slider/slider_1/index.php on line 31
+[23-Mar-2023 11:30:23 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/itourscloud/public_html/ui-element/components/card_holiday/slider/slider_1/index.php on line 31
+[23-Mar-2023 11:31:07 UTC] PHP Warning:  Undefined array key "dest_name" in /home/itourscloud/public_html/ui-element/components/card_holiday/slider/slider_1/index.php on line 42
+[23-Mar-2023 11:31:07 UTC] PHP Warning:  Undefined array key "dest_name" in /home/itourscloud/public_html/ui-element/components/card_holiday/slider/slider_1/index.php on line 42
+[23-Mar-2023 11:31:07 UTC] PHP Warning:  Undefined array key "dest_name" in /home/itourscloud/public_html/ui-element/components/card_holiday/slider/slider_1/index.php on line 42
+[23-Mar-2023 11:31:07 UTC] PHP Warning:  Undefined array key "dest_name" in /home/itourscloud/public_html/ui-element/components/card_holiday/slider/slider_1/index.php on line 42
+[23-Mar-2023 11:31:07 UTC] PHP Warning:  Undefined array key "dest_name" in /home/itourscloud/public_html/ui-element/components/card_holiday/slider/slider_1/index.php on line 42
+[23-Mar-2023 11:31:07 UTC] PHP Warning:  Undefined array key "dest_name" in /home/itourscloud/public_html/ui-element/components/card_holiday/slider/slider_1/index.php on line 42
+[23-Mar-2023 11:31:07 UTC] PHP Warning:  Undefined array key "dest_name" in /home/itourscloud/public_html/ui-element/components/card_holiday/slider/slider_1/index.php on line 42
+[23-Mar-2023 11:32:56 UTC] PHP Warning:  Undefined array key "dest_name" in /home/itourscloud/public_html/ui-element/components/card_holiday/slider/slider_1/index.php on line 42
+[23-Mar-2023 11:32:56 UTC] PHP Warning:  Undefined array key "dest_name" in /home/itourscloud/public_html/ui-element/components/card_holiday/slider/slider_1/index.php on line 42
+[23-Mar-2023 11:32:56 UTC] PHP Warning:  Undefined array key "dest_name" in /home/itourscloud/public_html/ui-element/components/card_holiday/slider/slider_1/index.php on line 42
+[23-Mar-2023 11:32:56 UTC] PHP Warning:  Undefined array key "dest_name" in /home/itourscloud/public_html/ui-element/components/card_holiday/slider/slider_1/index.php on line 42
+[23-Mar-2023 11:32:56 UTC] PHP Warning:  Undefined array key "dest_name" in /home/itourscloud/public_html/ui-element/components/card_holiday/slider/slider_1/index.php on line 42
+[23-Mar-2023 11:32:56 UTC] PHP Warning:  Undefined array key "dest_name" in /home/itourscloud/public_html/ui-element/components/card_holiday/slider/slider_1/index.php on line 42
+[23-Mar-2023 11:32:56 UTC] PHP Warning:  Undefined array key "dest_name" in /home/itourscloud/public_html/ui-element/components/card_holiday/slider/slider_1/index.php on line 42
+[23-Mar-2023 11:34:19 UTC] PHP Warning:  Undefined array key "dest_name" in /home/itourscloud/public_html/ui-element/components/card_holiday/slider/slider_1/index.php on line 42
+[23-Mar-2023 11:34:19 UTC] PHP Warning:  Undefined array key "dest_name" in /home/itourscloud/public_html/ui-element/components/card_holiday/slider/slider_1/index.php on line 42
+[23-Mar-2023 11:34:19 UTC] PHP Warning:  Undefined array key "dest_name" in /home/itourscloud/public_html/ui-element/components/card_holiday/slider/slider_1/index.php on line 42
+[23-Mar-2023 11:34:19 UTC] PHP Warning:  Undefined array key "dest_name" in /home/itourscloud/public_html/ui-element/components/card_holiday/slider/slider_1/index.php on line 42
+[23-Mar-2023 11:34:19 UTC] PHP Warning:  Undefined array key "dest_name" in /home/itourscloud/public_html/ui-element/components/card_holiday/slider/slider_1/index.php on line 42
+[23-Mar-2023 11:34:19 UTC] PHP Warning:  Undefined array key "dest_name" in /home/itourscloud/public_html/ui-element/components/card_holiday/slider/slider_1/index.php on line 42
+[23-Mar-2023 11:34:19 UTC] PHP Warning:  Undefined array key "dest_name" in /home/itourscloud/public_html/ui-element/components/card_holiday/slider/slider_1/index.php on line 42
+[23-Mar-2023 11:39:36 UTC] PHP Warning:  Undefined array key "destination_name" in /home/itourscloud/public_html/ui-element/components/card_holiday/slider/slider_1/index.php on line 42
+[23-Mar-2023 11:39:36 UTC] PHP Warning:  Undefined array key "destination_name" in /home/itourscloud/public_html/ui-element/components/card_holiday/slider/slider_1/index.php on line 42
+[23-Mar-2023 11:39:36 UTC] PHP Warning:  Undefined array key "destination_name" in /home/itourscloud/public_html/ui-element/components/card_holiday/slider/slider_1/index.php on line 42
+[23-Mar-2023 11:39:36 UTC] PHP Warning:  Undefined array key "destination_name" in /home/itourscloud/public_html/ui-element/components/card_holiday/slider/slider_1/index.php on line 42
+[23-Mar-2023 11:39:36 UTC] PHP Warning:  Undefined array key "destination_name" in /home/itourscloud/public_html/ui-element/components/card_holiday/slider/slider_1/index.php on line 42
+[23-Mar-2023 11:39:36 UTC] PHP Warning:  Undefined array key "destination_name" in /home/itourscloud/public_html/ui-element/components/card_holiday/slider/slider_1/index.php on line 42
+[23-Mar-2023 11:39:36 UTC] PHP Warning:  Undefined array key "destination_name" in /home/itourscloud/public_html/ui-element/components/card_holiday/slider/slider_1/index.php on line 42

@@ -1,0 +1,2 @@
+[24-Mar-2023 09:33:26 UTC] PHP Warning:  Undefined variable $footer in /home/itourscloud/public_html/ui-element/components/footer/footer_7/index.php on line 37
+[24-Mar-2023 09:33:26 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/itourscloud/public_html/ui-element/components/footer/footer_7/index.php on line 37

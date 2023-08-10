@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.header-carousel .owl-nav {
+  position: absolute;
+  top: 50%;
+  left: -25px;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+}
+
+.header-carousel .owl-nav .owl-prev,
+.header-carousel .owl-nav .owl-next {
+  margin: 7px 0;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff !important;
+  background: var(--primaryColor) !important;
+  border-radius: 40px;
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+.text-primary {
+  color: var(--primaryColor) !important;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: var(--btnColor) !important;
+  border-color: var(--btnColor) !important;
+}
+
+.btn-primary:hover {
+  background-color: var(--btnHover) !important;
+}
+
+.header-carousel .owl-nav .owl-prev:hover,
+.header-carousel .owl-nav .owl-next:hover {
+  background: var(--btnHover);
+}
+
+@media (max-width: 768px) {
+  .header-carousel .owl-nav {
+    left: 25px;
+  }
+}
+
+@media (min-width: 992px) {
+  .header {
+    margin-top: -120px;
+  }
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  color: #dddddd;
+}

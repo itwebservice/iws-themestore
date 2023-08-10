@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.home-container {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  overflow-x: hidden;
+  align-items: center;
+  flex-direction: column;
+  margin: 30px 0;
+}
+.home-get-started {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 6rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  flex-direction: column;
+  padding-bottom: 6rem;
+  background-color: #375ee0;
+}
+.home-content {
+  gap: 3rem;
+  display: flex;
+  max-width: 600px;
+  align-items: center;
+  flex-direction: column;
+}
+.home-heading {
+  gap: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.home-text {
+  color: rgb(193, 255, 252);
+  font-size: 64px;
+  font-style: normal;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.home-text1 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  line-height: 30px;
+  line-height: 1.5;
+}
+.home-hero-buttons {
+  gap: 1rem;
+  display: flex;
+  z-index: 15;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.home-i-o-s-btn {
+  gap: 0.5rem;
+  fill: white;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: 1.5rem;
+  padding-left: 2rem;
+  border-radius: 8px;
+  padding-right: 2rem;
+  flex-direction: row;
+  padding-bottom: 1.5rem;
+  justify-content: center;
+  background-color: var(--btnColor);
+}
+.home-i-o-s-btn:hover {
+  background-color: var(--btnHover);
+}
+.home-caption {
+  font-style: normal;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+@media (max-width: 991px) {
+  .home-get-started {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .home-content {
+    gap: 1.5rem;
+  }
+  .home-heading {
+    gap: 0.5rem;
+  }
+  .home-text {
+    font-size: 40px;
+  }
+  .home-text1 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 767px) {
+  .home-get-started {
+    display: none;
+  }
+}
+@media (max-width: 479px) {
+  .home-hero-buttons {
+    width: 100%;
+    flex-direction: column;
+  }
+  .home-i-o-s-btn {
+    width: 100%;
+  }
+}

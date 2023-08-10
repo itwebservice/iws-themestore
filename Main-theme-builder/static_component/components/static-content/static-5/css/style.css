@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.btn:focus {
+    box-shadow: none;
+}
+
+
+/*********** Summer Section Start ***********/
+
+.summer-section {
+    padding: 80px 0;
+}
+
+.summer-title {
+    font-size: 42px;
+    font-weight: 700;
+    color: #333333e8;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.summer-offer {
+    background: #efd8dd;
+    padding: 64px 30px 80px;
+    text-align: center;
+}
+
+.summer-discription {
+    font-size: 21px;
+    color: #333333e8;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.summer-content {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.summer-offer-btn {
+    font-size: 14px;
+    background-color: #ef2853;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 13px 24px 11px;
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-top: 18px;
+    border: none;
+    position: relative;
+    z-index: 1;
+}
+
+.summer-offer-btn:hover {
+    color: #ef2853;
+    background-color: transparent;
+}
+
+.summer-offer-btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #ef2853;
+    border-radius: 10px;
+    transform: scale(0, 1);
+    transition: all 0.3s ease-in-out;
+    background-color: transparent;
+    z-index: -1;
+}
+
+.summer-offer-btn:hover::before {
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+}
+
+.summer-img img {
+    object-fit: cover;
+}
+
+
+/*********** Summer Section End ***********/
+
+
+/*********** Responsive Start ***************/
+
+@media (min-width: 1400px) {
+    .summer-section .container {
+        max-width: 1200px;
+    }
+}
+
+@media (max-width: 767px) {
+    .summer-discription {
+        font-size: 18px;
+    }
+}
+
+
+/*********** Responsive Start ***************/

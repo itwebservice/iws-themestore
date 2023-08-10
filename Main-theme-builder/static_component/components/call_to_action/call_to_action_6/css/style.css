@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.call-to-action {
+  background-image: url(../images/tourist.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 120px 0;
+  position: relative;
+  margin: 30px 0;
+}
+.img-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+.base-cont {
+  position: relative;
+  z-index: 999;
+}
+.heading-primary h2 {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 1.54em;
+  color: #fff;
+  font-family: "Poppins";
+}
+
+.sub-heading p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.44em;
+  color: #fff;
+  margin-top: 15px;
+}
+
+.btn {
+  display: block;
+  margin-top: 40px;
+}
+
+.btn .wid-btn {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.47em;
+  background-color: var(--btnColor);
+  color: #fff;
+  border-radius: 30px;
+  padding: 9px 32px;
+}
+
+.btn .wid-btn:hover {
+  background-color: var(--btnHover);
+}

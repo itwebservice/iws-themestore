@@ -1,0 +1,43 @@
+section.section {
+  margin: 0;
+  padding: 80px 0 60px 0;
+}
+
+#parallax1 {
+  background-image: url(../images/img1.jpg);
+  margin: 30px 0;
+}
+
+.color-white.txt-shadow {
+  text-shadow: 1px 1px 0 rgb(0 0 0 / 20%);
+}
+
+.color-white {
+  color: #fff;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.stats .icon {
+  margin: 0 0 20px 0;
+}
+
+.stats strong.number {
+  font-size: 38px;
+}
+
+.stats span.text {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+@media only screen and (max-width: 767px) {
+  .counter-box {
+    margin-bottom: 40px;
+  }
+  .stats .icon {
+    margin: 0;
+  }
+}

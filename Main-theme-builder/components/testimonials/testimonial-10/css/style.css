@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.testimonial-sec {
+  margin: 50px 0;
+}
+
+.testimonial-sec .heading-area {
+  margin-bottom: 50px;
+}
+
+.heading-area .title {
+  font-size: 3rem;
+  margin-bottom: 25px;
+}
+
+.heading-area .sub-title {
+  margin-bottom: 15px;
+  font-weight: 400;
+  color: var(--primaryColor);
+}
+
+.testimonial {
+  text-align: center;
+  padding: 85px 50px 45px 70px;
+  margin: 70px 15px 35px;
+  background: #f9f9f9;
+  border-bottom: 3px dotted rgba(43, 43, 43, 0.81);
+  border-right: 3px dotted rgba(43, 43, 43, 0.81);
+  position: relative;
+}
+.testimonial .pic {
+  width: 120px;
+  height: 120px;
+  border: 5px double var(--primaryColor);
+  margin: 0 auto;
+  position: absolute;
+  top: -60px;
+  left: 0;
+  right: 0;
+}
+.testimonial .pic img {
+  width: 100%;
+  height: 100%;
+}
+.testimonial .description {
+  font-size: 15px;
+  color: #757575;
+  line-height: 27px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.testimonial .description:before {
+  content: "\f10d";
+  font-family: "FontAwesome";
+  font-size: 32px;
+  color: var(--primaryColor);
+  position: absolute;
+  top: -15px;
+  left: -35px;
+}
+.testimonial .testimonial-profile {
+  position: relative;
+  margin: 20px 0 10px 0;
+}
+.testimonial .testimonial-profile:after {
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: var(--primaryColor);
+  margin: 0 auto;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  right: 0;
+}
+.testimonial .title {
+  display: inline-block;
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 0;
+}
+.testimonial .post {
+  display: inline-block;
+  font-size: 15px;
+  color: #2b2b2b;
+  text-transform: capitalize;
+}
+
+.testimonial-sec .owl-carousel .owl-dots {
+  justify-content: center;
+  display: flex;
+  margin-top: 20px;
+}
+
+.testimonial-sec .owl-carousel .owl-dots .owl-dot {
+  background: rgba(43, 43, 43, 0.81);
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.testimonial-sec .owl-carousel .owl-dots .owl-dot.active {
+  width: 25px;
+  height: 12px;
+  border-radius: 25%;
+  background: #02aeb3;
+}
+
+.testimonial-sec .owl-carousel .owl-dots .owl-dot:hover {
+  background: #02aeb3;
+}

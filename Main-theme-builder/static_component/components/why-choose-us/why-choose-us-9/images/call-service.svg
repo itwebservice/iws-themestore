@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:ns1="http://sozi.baierouge.fr"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    id="svg2"
+    sodipodi:docname="servicedesk.svg"
+    inkscape:export-filename="G:\Documents and Settings\milo\Bureaublad\servicedesk.png"
+    viewBox="0 0 744.09 1052.4"
+    inkscape:export-xdpi="90"
+    version="1.1"
+    inkscape:export-ydpi="90"
+    inkscape:version="0.47 r22583"
+  >
+  <defs
+      id="defs4"
+    >
+    <filter
+        id="filter5371"
+        height="3.1509"
+        width="3.1509"
+        y="-1.0755"
+        x="-1.0755"
+        inkscape:collect="always"
+      >
+      <feGaussianBlur
+          id="feGaussianBlur5373"
+          stdDeviation="19.681861"
+          inkscape:collect="always"
+      />
+    </filter
+    >
+  </defs
+  >
+  <sodipodi:namedview
+      id="base"
+      bordercolor="#666666"
+      inkscape:pageshadow="2"
+      inkscape:window-y="-4"
+      pagecolor="#ffffff"
+      inkscape:window-height="851"
+      inkscape:window-maximized="1"
+      inkscape:zoom="0.40248212"
+      inkscape:window-x="-4"
+      showgrid="false"
+      borderopacity="1.0"
+      inkscape:current-layer="layer1"
+      inkscape:cx="372.04724"
+      inkscape:cy="765.98073"
+      inkscape:window-width="1440"
+      inkscape:pageopacity="0.0"
+      inkscape:document-units="px"
+  />
+  <g
+      id="layer1"
+      inkscape:label="Layer 1"
+      inkscape:groupmode="layer"
+    >
+    <path
+        id="path2816"
+        sodipodi:nodetypes="cccccc"
+        style="stroke-linejoin:round;stroke:#000000;stroke-linecap:round;stroke-width:9;fill:#a6bf4e"
+        d="m420.85 559.53c-122.52-168.87-263.11-21.82-269.85 184.47 30.426 22.479 61.762 30.002 82.034-14.203 47.661 37.78 224.08 28.374 281.35-4.0891 10.558 14.623 20.058 62.774 85.186 15.435-5.06-203.42-124.44-386.98-178.72-181.61z"
+    />
+    <path
+        id="path5341"
+        sodipodi:rx="21.960814"
+        sodipodi:ry="21.960814"
+        style="filter:url(#filter5371);fill:#ffffff"
+        sodipodi:type="arc"
+        d="m317.99 607a21.961 21.961 0 1 1 -43.922 0 21.961 21.961 0 1 1 43.922 0z"
+        transform="matrix(2.4218 0 0 2.2949 -429.68 -803.54)"
+        sodipodi:cy="606.99689"
+        sodipodi:cx="296.03177"
+    />
+    <path
+        id="path2818"
+        sodipodi:rx="185.71428"
+        sodipodi:ry="185.71428"
+        style="fill-rule:evenodd;stroke:#000000;stroke-width:8.7752;fill:#ffc6b1"
+        sodipodi:type="arc"
+        d="m625.71 286.65a185.71 185.71 0 1 1 -371.43 0 185.71 185.71 0 1 1 371.43 0z"
+        transform="matrix(.99993 0 0 1.052 -59.97 9.0539)"
+        sodipodi:cy="286.64789"
+        sodipodi:cx="440"
+    />
+    <path
+        id="path5470"
+        sodipodi:rx="72.909904"
+        sodipodi:ry="72.909904"
+        style="stroke-linejoin:round;stroke:#000000;stroke-linecap:round;stroke-width:9;fill:#000000"
+        sodipodi:type="arc"
+        d="m312.72 287.25a72.91 72.91 0 1 1 -145.82 0 72.91 72.91 0 1 1 145.82 0z"
+        transform="translate(-.48458 16.907)"
+        sodipodi:cy="287.24744"
+        sodipodi:cx="239.81209"
+    />
+    <path
+        id="path5472"
+        sodipodi:nodetypes="cc"
+        style="stroke-linejoin:round;stroke:#000000;stroke-linecap:round;stroke-width:12;fill:none"
+        d="m220.88 305.03c-60.66-253.83 239.12-320.84 308.27-113.11"
+    />
+    <path
+        id="path5474"
+        sodipodi:nodetypes="cc"
+        style="stroke:#000000;stroke-width:12;fill:none"
+        d="m249.7 364.13c49.894 49.708 111.25 62.739 177.65 59.63"
+    />
+    <path
+        id="path5476"
+        sodipodi:rx="26.709261"
+        sodipodi:ry="15.52864"
+        style="stroke-linejoin:round;stroke:#000000;stroke-linecap:round;stroke-width:12;fill:#000000"
+        sodipodi:type="arc"
+        d="m654.69 446.75a26.709 15.529 0 1 1 -53.419 0 26.709 15.529 0 1 1 53.419 0z"
+        transform="matrix(.99974 .022899 -.022899 .99974 -173.46 -36.624)"
+        sodipodi:cy="446.74521"
+        sodipodi:cx="627.97821"
+    />
+  </g
+  >
+  <metadata
+    >
+    <rdf:RDF
+      >
+      <cc:Work
+        >
+        <dc:format
+          >image/svg+xml</dc:format
+        >
+        <dc:type
+            rdf:resource="http://purl.org/dc/dcmitype/StillImage"
+        />
+        <cc:license
+            rdf:resource="http://creativecommons.org/licenses/publicdomain/"
+        />
+        <dc:publisher
+          >
+          <cc:Agent
+              rdf:about="http://openclipart.org/"
+            >
+            <dc:title
+              >Openclipart</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:publisher
+        >
+        <dc:title
+          >servicedesk employee</dc:title
+        >
+        <dc:date
+          >2010-01-18T21:49:07</dc:date
+        >
+        <dc:description
+        />
+        <dc:source
+          >https://openclipart.org/detail/28943/servicedesk-employee-by-milovanderlinden</dc:source
+        >
+        <dc:creator
+          >
+          <cc:Agent
+            >
+            <dc:title
+              >milovanderlinden</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:creator
+        >
+        <dc:subject
+          >
+          <rdf:Bag
+            >
+            <rdf:li
+              >unchecked</rdf:li
+            >
+          </rdf:Bag
+          >
+        </dc:subject
+        >
+      </cc:Work
+      >
+      <cc:License
+          rdf:about="http://creativecommons.org/licenses/publicdomain/"
+        >
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Reproduction"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Distribution"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#DerivativeWorks"
+        />
+      </cc:License
+      >
+    </rdf:RDF
+    >
+  </metadata
+  >
+</svg
+>

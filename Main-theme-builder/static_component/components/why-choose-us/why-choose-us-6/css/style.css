@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.feature-sec {
+  padding: 40px 0;
+}
+
+.sec-title h2 {
+  font-family: "Poppins", sans-serif;
+  color: #4f4b8b;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.feature-block-one .inner-box {
+  position: relative;
+  display: block;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #ffffff;
+  box-shadow: 0px 15px 25px 0px rgb(0 0 0 / 8%);
+}
+.feature-block-one .inner-box:hover .image-box a::before {
+  -webkit-animation: circle 0.95s;
+  animation: circle 0.95s;
+}
+.feature-block-one .inner-box .image-box a::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  display: block;
+  content: "";
+  width: 0;
+  height: 0;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 0%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+.feature-block-one .inner-box .image-box {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+.feature-block-one .inner-box .image-box img {
+  width: 100%;
+  transform: scale(1.05);
+  transition: all 500ms ease;
+}
+.feature-block-one .inner-box:hover .image-box img {
+  transform: scale(1);
+}
+.elementor img {
+  height: auto;
+  max-width: 100%;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+.feature-block-one .inner-box .lower-content {
+  position: relative;
+  display: block;
+  padding: 60px 15px 25px 15px;
+}
+.feature-block-one .inner-box .lower-content .icon-box {
+  position: absolute;
+  left: 50%;
+  top: -40px;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  background: #fff;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 40px;
+  box-shadow: 0px 15px 20px 0px rgb(0 0 0 / 6%);
+  color: var(--primaryColor);
+}
+
+.feature-block-one .inner-box .lower-content h4 {
+  text-align: center;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  font-family: "Poppins";
+}
+
+@media only screen and (max-width: 767px) {
+  .sec-title h2 {
+    font-size: 36px;
+    line-height: 45px;
+  }
+  .feature-block-one {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .feature-block-one .inner-box {
+    margin-bottom: 30px;
+  }
+}

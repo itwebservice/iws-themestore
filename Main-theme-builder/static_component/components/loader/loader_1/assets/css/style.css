@@ -1,0 +1,54 @@
+#global-loader {
+    position: fixed;
+    z-index: 50000;
+    background: #fff;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: #7167ff;
+}
+
+.loader-svg-img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 33%;
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+    line-height: 300px;
+    border-radius: 50%;
+    background: url(../images/loader2.svg);
+}
+
+.loader-svg-img img {
+    width: auto;
+}
+
+.flight-icon {
+    position: absolute;
+    top: 37%;
+    color: #fff;
+    transform: rotate(45deg);
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    animation: fa-spin 10s infinite linear;
+    width: 50px;
+    height: 78px;
+    display: flex;
+    margin: 0 auto;
+    line-height: 80px;
+    font-size: 1.125rem;
+}
+
+.flight-icon i {
+    transform: rotate(-50deg);
+    font-size: 15px;
+}

@@ -1,0 +1,10 @@
+[31-Mar-2023 04:16:07 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/itourscloud/public_html/ui-element/components/card_holiday/static/card_1/index.php on line 53
+[31-Mar-2023 04:16:27 UTC] PHP Warning:  Undefined array key "tota_tour_cost" in /home/itourscloud/public_html/ui-element/components/card_holiday/static/card_1/index.php on line 53
+[31-Mar-2023 04:16:27 UTC] PHP Warning:  Undefined array key "tota_tour_cost" in /home/itourscloud/public_html/ui-element/components/card_holiday/static/card_1/index.php on line 53
+[31-Mar-2023 04:16:27 UTC] PHP Warning:  Undefined array key "tota_tour_cost" in /home/itourscloud/public_html/ui-element/components/card_holiday/static/card_1/index.php on line 53
+[31-Mar-2023 04:16:27 UTC] PHP Warning:  Undefined array key "tota_tour_cost" in /home/itourscloud/public_html/ui-element/components/card_holiday/static/card_1/index.php on line 53
+[31-Mar-2023 04:16:27 UTC] PHP Warning:  Undefined array key "tota_tour_cost" in /home/itourscloud/public_html/ui-element/components/card_holiday/static/card_1/index.php on line 53
+[31-Mar-2023 04:16:27 UTC] PHP Warning:  Undefined array key "tota_tour_cost" in /home/itourscloud/public_html/ui-element/components/card_holiday/static/card_1/index.php on line 53
+[31-Mar-2023 04:16:27 UTC] PHP Warning:  Undefined array key "tota_tour_cost" in /home/itourscloud/public_html/ui-element/components/card_holiday/static/card_1/index.php on line 53
+[31-Mar-2023 04:16:27 UTC] PHP Warning:  Undefined array key "tota_tour_cost" in /home/itourscloud/public_html/ui-element/components/card_holiday/static/card_1/index.php on line 53
+[24-May-2023 06:50:50 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/itourscloud/public_html/ui-element/components/card_holiday/static/card_1/index.php on line 34

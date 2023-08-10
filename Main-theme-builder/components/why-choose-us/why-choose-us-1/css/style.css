@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/************* Feature Section Start **************/
+
+.feature-section {
+  padding: 30px 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #f5f4fb;
+}
+
+.feature-subtitle {
+  font-size: 32px;
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  color: #f96768;
+}
+
+.feature-title {
+  color: #4f4b8b;
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.feature-discription {
+  color: #a1a0b9;
+}
+
+.feature-title-content {
+  margin-bottom: 48px;
+}
+
+.feature-item {
+  border: 1px solid #e5e4f0;
+  padding: 24px;
+  box-shadow: 5px 4px 12px 4px rgb(79 37 225 / 3%);
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.feature-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  line-height: 80px;
+  margin: 0 auto;
+  background-color: rgba(113, 103, 255, 0.1) !important;
+}
+
+.feature-img i {
+  color: #7167ff;
+  font-size: 26px;
+}
+
+.feature-points-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 24px;
+}
+
+.feature-points-discription {
+  color: #797896;
+}
+
+.feature-travellers-img {
+  background-color: rgba(62, 183, 80, 0.1) !important;
+}
+
+.feature-travellers-img i {
+  color: #3eb750;
+}
+
+.feature-support-img {
+  background-color: rgba(255, 182, 9, 0.1) !important;
+}
+
+.feature-support-img i {
+  color: #ffb609 !important;
+}
+
+/************* Feature Section End **************/
+
+/************** Responsive Start ***************/
+
+@media (min-width: 1400px) {
+  .feature-section .container {
+    max-width: 1200px;
+  }
+}
+
+@media (max-width: 991px) {
+  .feature-item {
+    margin-bottom: 16px;
+  }
+}
+
+/************** Responsive End ***************/

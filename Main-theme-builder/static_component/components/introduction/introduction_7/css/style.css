@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.half-section {
+  width: 100%;
+}
+.bg-green {
+  background-color: #03b3cb;
+}
+.split-container-setting.style-three {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.split-container-setting {
+  max-width: 460px;
+  margin-left: auto;
+  margin-right: 96px;
+}
+.main-title {
+  position: relative;
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.main-title h5 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+  color: #ffffff;
+}
+
+.main-title b {
+  font-weight: 700;
+}
+
+.split-container-setting .main-title h2 {
+  max-width: 100%;
+  text-transform: initial;
+  color: #ffffff;
+}
+
+.main-title h2 {
+  text-transform: capitalize;
+  font-weight: 300;
+  color: #1f1f1f;
+  line-height: 1.2;
+  max-width: 650px;
+  margin-bottom: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.color-white {
+  color: #ffffff;
+}
+
+.btn-transparent {
+  border: 1px solid #ffffff;
+  background: transparent;
+}
+
+.btn-setting {
+  padding: 9px 34px;
+  width: auto;
+  display: inline-block;
+  font-weight: 400;
+  line-height: 25px;
+  font-size: 15px;
+  text-transform: capitalize;
+  text-align: center;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  border: 1px solid #ffffff;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease !important;
+}
+
+.btn-hvr-blue:hover,
+.btn-hvr-blue:focus {
+  border-color: var(--btnHover);
+  background-color: var(--btnHover);
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.hover-effect::before {
+  right: 0;
+  opacity: 1;
+  top: 0;
+}
+
+.hover-effect:hover::after,
+.hover-effect:hover::before {
+  height: 100%;
+  opacity: 0;
+  width: 100%;
+}
+
+.hover-effect::before,
+.hover-effect::after {
+  content: "";
+  background: #fff;
+  height: 0;
+  width: 0;
+  z-index: 1;
+  position: absolute;
+  -webkit-transition-duration: 1.3s !important;
+  -o-transition-duration: 1.3s;
+  transition-duration: 1.3s !important;
+}
+
+.hover-effect::after {
+  bottom: 0;
+  opacity: 0.7;
+  left: 0;
+}
+
+.about-img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (min-width: 992px) {
+  .text-lg-left {
+    text-align: left !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .split-container-setting.style-three {
+    padding: 35px 0;
+  }
+}

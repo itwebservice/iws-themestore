@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/*  Helper Styles */
+body {
+  font-family: "Poppins", sans-serif;
+  background: #f1f1f1;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.cust-mg {
+  margin: 30px 0;
+}
+
+/* Title */
+.section-title {
+  font-family: "Poppins", sans-serif;
+  color: #4f4b8b;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.dest-sub {
+  font-family: "Poppins", sans-serif;
+  color: #a1a0b9;
+  line-height: 1.5;
+}
+
+/* Card Styles */
+
+.card-sl {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 25px 0;
+}
+
+.card-image img {
+  height: 100%;
+  width: 100%;
+  border-radius: 8px 8px 0px 0;
+}
+
+.card-heading {
+  font-size: 18px;
+  font-weight: bold;
+  background: #fff;
+  padding: 10px 15px;
+}
+
+.card-text {
+  padding: 10px 15px;
+  background: #fff;
+  font-size: 14px;
+  color: #636262;
+}
+
+.card-button {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  width: 100%;
+  background-color: var(--btnColor);
+  color: #fff;
+  border-radius: 0 0 8px 8px;
+}
+
+.card-button:hover {
+  text-decoration: none;
+  background-color: var(--btnHover);
+  color: #fff;
+}

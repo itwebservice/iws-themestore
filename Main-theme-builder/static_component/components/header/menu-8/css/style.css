@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.h-menu-two-navbar .navbar-toggler:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+
+/************** Header Menu two Start ***************/
+
+.h-menu-two .navbar-brand {
+    width: 354px;
+    max-width: 100%;
+    height: 90px;
+}
+
+.h-menu-two-logo-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding-bottom: 13px;
+}
+
+.h-menu-mobile {
+    background-color: hsla(0, 0%, 20%, 0.75);
+    color: #ffffff;
+    padding: 7px 10px;
+    margin: 0 -3px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.h-menu-mobile:hover {
+    color: #ffffff;
+}
+
+.h-menu-mobile.h-menu-email {
+    background-color: #2f51a2;
+}
+
+.h-menu-mobile i {
+    margin-right: 5px;
+}
+
+.h-menu-two-navbar {
+    background-color: #666;
+}
+
+.h-menu-two-navbar .nav-link {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 40px;
+    font-weight: 600;
+    min-width: 90px;
+    text-align: center;
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    font-family: 'Raleway', sans-serif;
+}
+
+.h-menu-two-navbar .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0 20px;
+}
+
+
+/* .active {
+background-color: #2f51a2;
+} */
+
+.h-menu-two .nav-link:hover {
+    background-color: #2f51a2;
+    color: #ffffff;
+}
+
+.h-menu-two .h-menu-link:hover {
+    color: #ffffff;
+}
+
+.h-menu-dropdown {
+    list-style: none;
+    padding: 0;
+    background-color: #666;
+    position: absolute;
+    z-index: 1;
+    display: none;
+    min-width: 225px;
+}
+
+.h-menu-dropdown-box {
+    position: relative;
+}
+
+.h-menu-dropdown-box:hover>.h-menu-dropdown {
+    display: block;
+}
+
+.h-menu-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 5px 10px;
+    line-height: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    font-family: 'Raleway', sans-serif;
+}
+
+.h-menu-megamenu {
+    left: 100%;
+    top: 1px;
+}
+
+.h-menu-two-navbar .navbar-toggler-icons {
+    width: 18px;
+    height: 3px;
+    background-color: black;
+    display: block;
+    margin-bottom: 3px;
+    opacity: 0.5;
+}
+
+.h-menu-two-navbar .navbar-toggler {
+    position: absolute;
+    right: 66px;
+    top: -95px;
+}
+
+
+/************** Header Menu two End ***************/
+
+
+/******************** Responsive Start *********************/
+
+@media (max-width: 991px) {
+    .h-menu-two-logo-content {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .h-menu-two .navbar-brand {
+        width: 314px;
+        margin-bottom: 16px;
+    }
+    .h-menu-two-navbar .navbar-nav {
+        display: inline;
+    }
+    .h-menu-two-navbar {
+        background-color: #3051a0;
+        position: absolute;
+        width: 100%;
+        z-index: 1;
+    }
+    .h-menu-two-navbar .nav-link {
+        color: #ffffff;
+        border-bottom: 1px solid #eaeaea;
+        border-right: 0;
+        text-align: start;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+    .h-menu-dropdown {
+        background-color: #5d82d9;
+        position: static;
+        width: 100%;
+        padding-left: 30px;
+    }
+    .h-menu-two .nav-link:hover {
+        background-color: #ffffff;
+        color: #2f51a2;
+    }
+    .h-menu-two .h-menu-link:hover {
+        color: #2f51a2;
+        background-color: #ffffff;
+    }
+    .h-menu-link {
+        color: #ffffff;
+        font-size: 14px;
+        padding: 10px 20px 10px 10px;
+        font-family: 'Open Sans', sans-serif;
+    }
+}
+
+@media (max-width: 767px) {
+    .h-menu-two-contact {
+        display: none;
+    }
+    .h-menu-two-navbar .navbar-toggler {
+        position: absolute;
+        right: 17px;
+        top: -55px;
+    }
+}

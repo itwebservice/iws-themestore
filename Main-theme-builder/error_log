@@ -1,0 +1,7 @@
+[22-May-2023 06:30:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getDataApi() in /home/itourscloud/public_html/ui-element/components/banner/banner-4/testing.php:4
+Stack trace:
+#0 /home/itourscloud/public_html/ui-element/test.php(14): include()
+#1 {main}
+  thrown in /home/itourscloud/public_html/ui-element/components/banner/banner-4/testing.php on line 4
+[22-May-2023 06:36:53 UTC] PHP Warning:  Undefined array key "url_com" in /home/itourscloud/public_html/ui-element/test.php on line 3
+[22-May-2023 06:37:18 UTC] PHP Warning:  Undefined array key "url_com" in /home/itourscloud/public_html/ui-element/test.php on line 3

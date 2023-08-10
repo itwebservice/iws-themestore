@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.tour-sec {
+  margin: 30px 0;
+}
+
+.heading h2 {
+  font-family: "Poppins", sans-serif;
+  color: #4f4b8b;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.subtitle {
+  font-family: "Poppins", sans-serif;
+  color: #a1a0b9;
+  line-height: 1.5;
+}
+
+.about-box {
+  border-radius: 5px;
+  padding: 50px 15px 50px;
+  background: #ffffff;
+  text-align: center;
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 5px rgba(127, 123, 123, 0.1);
+  box-shadow: 0 0 5px rgba(127, 123, 123, 0.1);
+  transition: ease-in-out 0.3s;
+}
+.about-box:hover {
+  background: #28a745;
+  -webkit-box-shadow: 0 0 10px -2px rgba(127, 123, 123, 0.9);
+  box-shadow: 0 0 10px -2px rgba(127, 123, 123, 0.9);
+}
+.about-box .about-main-icon i {
+  color: #0284d0;
+  font-size: 40px;
+  transform: translateY(0);
+  transition: ease-in-out 0.3s;
+}
+.about-box:hover .about-main-icon i {
+  transform: translateY(-10px);
+}
+.about-box h5 {
+  font-weight: 200;
+  color: #1f1f1f;
+  transition: ease-in-out 0.3s;
+}
+.about-box:hover i,
+.about-box:hover h5 {
+  color: #fff;
+  transition: ease-in-out 0.3s;
+}
+.about-opacity-icon {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.about-opacity-icon i {
+  position: absolute;
+  color: #28a745;
+  top: 30px;
+  font-size: 120px;
+  font-weight: 800;
+  line-height: 1;
+  text-transform: capitalize;
+  opacity: 0;
+  animation: scale 0.6s alternate infinite linear both;
+}
+@keyframes scale {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-10px);
+  }
+}
+.about-box:hover .about-opacity-icon i {
+  opacity: 0.09;
+}
+
+.about-box.active {
+  background: #28a745;
+  -webkit-box-shadow: 0 0 10px -2px rgba(127, 123, 123, 0.9);
+  box-shadow: 0 0 10px -2px rgba(127, 123, 123, 0.9);
+}
+.about-box.active i,
+.about-box.active h5 {
+  color: #fff;
+}
+.about-box.active .about-opacity-icon i {
+  opacity: 0.09;
+}
+.about-box.active:hover {
+  background: #fff;
+  -webkit-box-shadow: 0 0 5px rgba(127, 123, 123, 0.1);
+  box-shadow: 0 0 5px rgba(127, 123, 123, 0.1);
+}
+.about-box.active:hover i {
+  color: #0284d0;
+}
+.about-box.active:hover h5 {
+  color: #1f1f1f;
+}
+.about-box.active:hover .about-opacity-icon i {
+  opacity: 0.09;
+}
+
+.about-box.active.about-box-green {
+  background: #fff;
+  -webkit-box-shadow: 0 0 5px rgba(127, 123, 123, 0.1);
+  box-shadow: 0 0 5px rgba(127, 123, 123, 0.1);
+}
+.about-box.active.about-box-green i {
+  color: #0284d0;
+}
+.about-box.active.about-box-green h5 {
+  color: #1f1f1f;
+}
+.about-box.active.about-box-green .about-opacity-icon i {
+  opacity: 0;
+}
+.about-box.active.about-box-green:hover {
+  background: #28a745;
+}
+.about-box.active.about-box-green:hover i {
+  color: #ffffff;
+}
+.about-box.active.about-box-green:hover h5 {
+  color: #ffffff;
+}
+.about-box.active.about-box-green:hover .about-opacity-icon i {
+  opacity: 0.09;
+}

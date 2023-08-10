@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none !important;
+}
+.banner-heading h2 {
+  text-align: center;
+  position: relative;
+  margin: 70px auto;
+  max-width: 130px;
+  width: 100%;
+  font-size: 36px;
+  font-weight: 600;
+}
+.banner-heading h2::before {
+  border-top: 2px solid #f04c26;
+  width: 70px;
+  position: absolute;
+  content: " ";
+  top: 22px;
+  right: -80px;
+}
+.banner-heading h2::after {
+  border-top: 2px solid #f04c26;
+  width: 70px;
+  position: absolute;
+  content: " ";
+  top: 22px;
+  left: -80px;
+}
+.blog {
+  background-image: url("../images/blog-banner.jpg");
+  padding-bottom: 50px;
+  background-size: cover;
+  background-position: center;
+}
+
+.blog .blog-heading {
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 15px;
+  color: #333333;
+}
+
+.blog .blog-textual-cont {
+  color: #555655;
+  text-align: center;
+  font-size: 16px;
+  padding: 0 30px;
+}
+
+.blog .blog-img {
+  text-align: center;
+  position: relative;
+  display: inline-block;
+}
+
+.blog .blog-img img {
+  display: inline;
+  margin-top: -20px;
+}
+
+.blog .blog-inner {
+  background-color: #fff;
+}
+
+.blog .read-more {
+  font-size: 14px;
+  width: 100%;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  color: #f04c25;
+  padding: 5px 0;
+  visibility: hidden;
+}
+
+.blog .blog-inner:hover .read-more {
+  visibility: visible;
+}
+
+.blog .blog-inner:hover .blog-img .img-border {
+  visibility: visible;
+}
+
+.blog .blog-inner .blog-img .img-border {
+  visibility: hidden;
+  height: 100%;
+  width: 90%;
+  position: absolute;
+  top: -11px;
+  left: 15px;
+  border: 1px solid #fff;
+}
+
+.owl-carousel .owl-stage-outer {
+  padding: 30px 0;
+}

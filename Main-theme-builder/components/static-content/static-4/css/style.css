@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+#contact {
+  margin: 30px 0;
+}
+
+.contact-box {
+  background: #ffffff;
+  padding: 70px 50px;
+}
+.box-shadow-contact {
+  box-shadow: -10px 0 20px 0 rgb(0 0 0 / 5%);
+}
+
+.list-unstyled {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+}
+
+.list-unstyled li {
+  margin: 0 10px;
+}
+
+.list-unstyled li a i {
+  font-size: 18px;
+  color: #333;
+}
+
+.address-social {
+  display: inline-block;
+}
+
+.address-social a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 15px;
+  margin: 5px;
+  border: 1px solid transparent;
+  -webkit-transition: background-color 0.2s ease-in-out;
+  -moz-transition: background-color 0.2s ease-in-out;
+  -ms-transition: background-color 0.2s ease-in-out;
+  -o-transition: background-color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.facebook-bg-hvr:hover {
+  background: #4267b2 !important;
+  color: #fff !important;
+  border: 1px solid transparent !important;
+}
+
+.twitter-bg-hvr:hover {
+  background: #1da1f2 !important;
+  color: #fff !important;
+  border: 1px solid transparent !important;
+}
+
+.google-bg-hvr:hover {
+  background: #db4437 !important;
+  color: #fff !important;
+  border: 1px solid transparent !important;
+}
+
+.linkedin-bg-hvr:hover {
+  background: #0077b5 !important;
+  color: #fff !important;
+  border: 1px solid transparent !important;
+}
+
+.instagram-bg-hvr:hover {
+  background: #c32aa3 !important;
+  color: #fff !important;
+  border: 1px solid transparent !important;
+}
+
+@media (min-width: 768px) {
+  .text-md-left {
+    text-align: left !important;
+  }
+  .text-md-left {
+    text-align: left !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .contact-box {
+    padding: 4.5rem 0;
+  }
+  .main-title {
+    margin-bottom: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .contact-box {
+    padding: 65px 45px;
+  }
+}

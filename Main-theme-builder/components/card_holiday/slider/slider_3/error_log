@@ -1,0 +1,4 @@
+[23-Mar-2023 12:12:37 UTC] PHP Warning:  Undefined variable $data in /home/itourscloud/public_html/ui-element/components/card_holiday/slider/slider_3/index.php on line 56
+[23-Mar-2023 12:12:37 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/itourscloud/public_html/ui-element/components/card_holiday/slider/slider_3/index.php on line 56
+[23-Mar-2023 12:13:33 UTC] PHP Warning:  Undefined variable $slider_1 in /home/itourscloud/public_html/ui-element/components/card_holiday/slider/slider_3/index.php on line 40
+[23-Mar-2023 12:13:33 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/itourscloud/public_html/ui-element/components/card_holiday/slider/slider_3/index.php on line 40

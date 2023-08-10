@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+a {
+  color: #22b3c1;
+  text-decoration: none !important;
+}
+
+.dest-sub {
+  font-family: "Poppins", sans-serif;
+  color: #a1a0b9;
+  line-height: 1.5;
+}
+.weekly-offers {
+  padding-bottom: 120px;
+  margin-top: 120px;
+  border-bottom: 1px solid #eee;
+}
+
+.custom-mg {
+  margin: 30px 0;
+}
+
+.weekly-offers .container-fluid {
+  padding: 0px 80px;
+}
+
+.weekly-offers .item {
+  margin: 0px 15px;
+  position: relative;
+  min-height: 420px;
+}
+
+.weekly-offers .item .thumb img {
+  padding-right: 65px;
+  border-radius: 23px;
+}
+
+.weekly-offers .item .thumb .text {
+  position: absolute;
+  background-color: #fff;
+  border-radius: 23px;
+  right: 0;
+  top: 55%;
+  transform: translateY(-50%);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+  padding: 30px;
+}
+
+.weekly-offers .item .thumb .text h4 {
+  font-size: 20px;
+  display: inline-block;
+}
+
+.weekly-offers .item .thumb .text h6 {
+  display: inline-block;
+  float: right;
+  text-align: right;
+  font-size: 20px;
+  color: #22b3c1;
+}
+
+.weekly-offers .item .thumb .text h4 span,
+.weekly-offers .item .thumb .text h6 span {
+  font-size: 15px;
+  color: #afafaf;
+  font-weight: 400;
+}
+
+.weekly-offers .item .thumb .text ul {
+  border-top: 1px solid #eee;
+  margin-top: 25px;
+  padding-top: 25px;
+}
+
+.weekly-offers .item .thumb .text ul li {
+  color: #afafaf;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.weekly-offers .item .thumb .text ul li:first-child {
+  color: #2a2a2a;
+  font-weight: 600;
+}
+
+.weekly-offers .item .thumb .text .main-button {
+  margin-top: 30px;
+  color: #222 !important;
+}
+
+.weekly-offers .item .thumb .text .main-button a:hover {
+  background-color: var(--btnHover);
+  border-color: var(--btnHover);
+  color: #fff;
+  opacity: 0.85;
+}
+
+.weekly-offers .owl-nav {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.weekly-offers .owl-nav .owl-next span {
+  display: none;
+}
+
+.weekly-offers .owl-nav .owl-next::after {
+  font-family: "FontAwesome";
+  content: "\f061";
+  color: #22b3c1;
+  font-size: 20px;
+  width: 46px;
+  height: 46px;
+  text-align: center;
+  border: 1px solid #22b3c1;
+  display: inline-block;
+  line-height: 44px;
+  border-radius: 50%;
+  transition: all 0.3s;
+  margin-left: 5px;
+}
+
+.weekly-offers .owl-nav .owl-prev span {
+  display: none;
+}
+
+.weekly-offers .owl-nav .owl-prev::after {
+  font-family: "FontAwesome";
+  content: "\f060";
+  color: #22b3c1;
+  font-size: 20px;
+  width: 46px;
+  height: 46px;
+  text-align: center;
+  border: 1px solid #22b3c1;
+  display: inline-block;
+  line-height: 44px;
+  border-radius: 50%;
+  transition: all 0.3s;
+  margin-right: 5px;
+}
+
+.weekly-offers .owl-nav .owl-prev:hover::after,
+.weekly-offers .owl-nav .owl-next:hover::after {
+  color: #fff;
+  background-color: #22b3c1;
+}
+.section-heading {
+  position: relative;
+  z-index: 2;
+  margin-top: 0px;
+  margin-bottom: 60px;
+  text-align: left;
+}
+
+.section-heading h2 {
+  font-family: "Poppins", sans-serif;
+  color: #4f4b8b;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+.main-button a {
+  font-size: 14px;
+  color: #fff;
+  background-color: var(--btnColor);
+  border: 1px solid var(--btnColor);
+  padding: 12px 30px;
+  display: inline-block;
+  border-radius: 25px;
+  font-weight: 500;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+}
+
+.main-button a:hover {
+  background-color: var(--btnHover);
+  color: #fff;
+  border: 1px solid var(--btnHover);
+}

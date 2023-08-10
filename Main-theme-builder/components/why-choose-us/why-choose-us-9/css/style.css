@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  font-family: "Poppins";
+}
+
+.choice {
+  width: 100%;
+  background: #f6f8fb;
+}
+.choice_image {
+  position: absolute;
+  bottom: 0;
+  left: 25px;
+}
+.choice_content {
+  padding-top: 94px;
+  padding-bottom: 91px;
+}
+.choice_text {
+  margin-top: 51px;
+}
+.choice_text p {
+  font-weight: 500;
+}
+.choice_list {
+  margin-top: 52px;
+}
+.choice_icon {
+  width: 64px;
+  height: 64px;
+}
+.choice_icon img {
+  max-width: 100%;
+}
+.choice_title {
+  font-size: 18px;
+  font-weight: 500;
+  color: #1f1d22;
+  margin-top: 20px;
+}
+@media (max-width: 768px) {
+  .choice_list ul {
+    padding-left: 0;
+  }
+  .choice_icon {
+    width: 52px;
+    height: 52px;
+  }
+  .choice_title {
+    font-size: 14px;
+  }
+
+  .choice {
+    background: #fff;
+  }
+}

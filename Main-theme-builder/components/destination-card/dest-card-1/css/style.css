@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  font-family: "Poppins";
+}
+a {
+  text-decoration: none !important;
+}
+.dest-sec {
+  margin: 50px 0;
+}
+.section-title {
+  font-size: 45px;
+  line-height: 1.2em;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #0f2454;
+  position: relative;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.section-title span {
+  color: var(--primaryColor);
+}
+.section-subtitle {
+  color: var(--primaryColor);
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  letter-spacing: 5px;
+}
+.dest-slider .item {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.position-re {
+  position: relative;
+}
+.o-hidden {
+  overflow: hidden;
+}
+.item:hover .con {
+  bottom: 0;
+}
+.item img {
+  height: auto;
+  max-width: 100%;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+.item:hover img {
+  -webkit-filter: none;
+  filter: none;
+  -webkit-transform: scale(1.09, 1.09);
+  transform: scale(1.09, 1.09);
+  -webkit-filter: brightness(70%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.item .category {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: 3;
+  writing-mode: vertical-rl;
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+  text-orientation: mixed;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-family: "Barlow", sans-serif;
+  padding: 12px 6px;
+  line-height: 1.5em;
+  text-transform: uppercase;
+  box-shadow: 0px 0px 35px 0px rgb(0 0 0 / 5%);
+  background: var(--primaryColor);
+}
+.item .con {
+  padding: 20px;
+  position: absolute;
+  bottom: -45px;
+  left: 0;
+  width: 100%;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: left;
+  z-index: 20;
+  height: auto;
+  box-sizing: border-box;
+  background: -moz-linear-gradient(
+    top,
+    transparent 0,
+    rgba(15, 36, 84, 0.1) 2%,
+    rgba(15, 36, 84, 0.75) 90%
+  );
+  background: -webkit-linear-gradient(
+    top,
+    transparent 0,
+    rgba(15, 36, 84, 0.01) 2%,
+    rgba(15, 36, 84, 0.75) 90%
+  );
+  background: linear-gradient(
+    to bottom,
+    transparent 0,
+    rgba(15, 36, 84, 0.01) 2%,
+    rgba(15, 36, 84, 0.75) 90%
+  );
+}
+.item .con h5 {
+  position: relative;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.item .line {
+  text-align: center;
+  height: 1px;
+  width: 60px;
+  background-color: rgba(255, 255, 255, 0.2);
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  margin: auto 0 20px;
+}
+.item:hover .line {
+  width: 100%;
+  transition-property: all;
+  transition-duration: 0.8s;
+  transition-timing-function: ease-in-out;
+}
+.line {
+  width: 60px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2) !important;
+  margin-bottom: 10px;
+}
+.item .con p {
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+.item .con .permalink {
+  font-family: "Barlow", sans-serif;
+  font-size: 14px;
+  color: #fff;
+  height: 0;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  display: inline;
+}
+.item .con h5 a {
+  position: relative;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.item .con .permalink a {
+  color: #fff;
+  text-align: right;
+}
+.item .con .permalink a:hover {
+  color: var(--primaryColor);
+}
+.item .category a {
+  color: #fff;
+}

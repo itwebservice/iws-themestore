@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.rounded {
+  border-radius: 8px !important;
+}
+.text-primary {
+  color: var(--primaryColor) !important;
+}
+
+.display-5 {
+  font-size: 3rem;
+  font-family: "Poppins";
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: var(--primaryColor);
+}
+
+.service .nav .nav-link.active h5 {
+  color: #ffffff !important;
+}
+.service .nav .nav-link.active h5 i {
+  color: #ffffff !important;
+}
+
+.me-3 {
+  margin-right: 1rem !important;
+}
+
+.fw-semi-bold {
+  font-weight: 500 !important;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: var(--btnColor);
+  border-color: var(--btnColor);
+}
+
+.btn-primary:hover {
+  background-color: var(--btnHover);
+}

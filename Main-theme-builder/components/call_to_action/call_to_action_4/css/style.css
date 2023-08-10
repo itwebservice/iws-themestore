@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/************ What Do Section Start ************/
+
+.what-do-section {
+    padding: 80px 0;
+    background-color: rgba(113, 103, 255, 0.92);
+}
+
+.what-do-title {
+    color: #fff;
+    line-height: 40px;
+    padding-bottom: 15px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.what-do-title::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 1px;
+    background-color: #ffffff;
+}
+
+.what-do-discription {
+    color: #fff;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 60px;
+}
+
+.what-do-img img {
+    width: 40px;
+}
+
+.what-do-box-item {
+    border: 1px dashed #fff;
+    transform: rotate(45deg);
+    background-color: rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 0 35px;
+    border-radius: 10px;
+    width: 130px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.what-do-img {
+    transform: rotate(-45deg);
+    position: relative;
+}
+
+.what-do-item-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    padding: 71px;
+    color: #fff;
+    transition: all 0.5s;
+}
+
+.what-do-item-title h5 {
+    white-space: nowrap;
+}
+
+.what-do-box-item:hover .what-do-item-title {
+    opacity: 1;
+    background-color: rgba(255, 255, 255);
+    transition: all 0.5s;
+    color: black;
+}
+
+
+/************ What Do Section End ************/
+
+
+/*********** Responsive Start **************/
+
+@media (max-width:1199px) {
+    .what-do-box-item {
+        margin-bottom: 70px;
+    }
+}
+
+@media (max-width: 767px) {
+    .what-do-box-item {
+        margin: 0 auto;
+        margin-bottom: 80px;
+    }
+}
+
+
+/*********** Responsive Start **************/

@@ -1,0 +1,83 @@
+/*************** Deafult  Start *********************/
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Style+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*************** Deafult  Start *********************/
+
+
+/*************** Counter Section  Start *********************/
+
+.it-counter-v2-section {
+    color: rgb(49, 45, 101);
+    background-color: #f5f4fb;
+    padding: 50px 0;
+    /* margin-top: 500px; */
+}
+
+.it-counter-v2-content {
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.it-counter-v2-content .row {
+    position: relative;
+    z-index: 1;
+}
+
+.it-counter-v2-card {
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.it-counter-v2-icon {
+    margin: 0 auto 10px;
+    display: flex;
+    width: 64px;
+    height: 64px;
+    padding: 15px;
+    border-radius: 50%;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.15);
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.it-counter-v2-icon.it-bg-primary {
+    background-color: #7167ff;
+}
+
+.it-counter-v2-icon.it-bg-danger {
+    background-color: #f96768;
+}
+
+.it-counter-v2-icon.it-bg-success {
+    background-color: #3eb750;
+}
+
+.it-counter-v2-icon.it-bg-info {
+    background-color: #23bcb9;
+}
+
+.it-counter-v2-label {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.it-counter-v2-number {
+    font-size: 36px;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+.it-counter-v2-icon i {
+    font-size: 20px;
+}
+
+
+/*************** Counter Section  End *********************/

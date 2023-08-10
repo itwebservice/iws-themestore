@@ -1,0 +1,197 @@
+.footer-content {
+  background: #011144;
+}
+
+.footer-top-inner-vv {
+  padding: 2em 0;
+}
+
+.footer-content h2 a {
+  font-size: 1.2em;
+  color: #fff;
+  padding: 0;
+  font-weight: 600;
+  margin: 0;
+  letter-spacing: 1px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.37);
+  position: relative;
+  text-transform: uppercase;
+}
+
+.footer-content h2 a span {
+  color: #ffc107;
+
+  vertical-align: middle;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.con-gd .form-control {
+  padding: 17px 17px;
+  border: 0;
+  border: none;
+  outline: none;
+  background: #fff;
+  color: #fff;
+  border-radius: 0;
+  font-size: 0.9em;
+  letter-spacing: 2px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+}
+
+.con-gd button.btn {
+  margin-left: auto;
+  padding: 15px 5px;
+  border: 0px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  outline: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/*--placeholder-color--*/
+
+.con-gd ::-webkit-input-placeholder {
+  color: #777;
+}
+
+.con-gd :-moz-placeholder {
+  /* Firefox 18- */
+  color: #777;
+}
+
+.con-gd ::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #777;
+}
+
+.con-gd :-ms-input-placeholder {
+  color: #777;
+}
+
+/*--//placeholder-color--*/
+/* footer grids */
+
+ul.list-info-lavi {
+  list-style: none;
+}
+
+ul.list-info-lavi li {
+  list-style: none;
+  margin: 0.8em 0;
+}
+
+h4.footer-title {
+  color: #777;
+  text-transform: capitalize;
+}
+
+.footerv3-top p {
+  font-size: 1em;
+  color: #777;
+  margin: 1em 0;
+  line-height: 1.5em;
+}
+
+.footer p a {
+  color: #777;
+  text-decoration: underline;
+}
+
+.footer p a:hover,
+.last-vv-contact p a:hover,
+p.copy-right-grids a:hover {
+  opacity: 0.9;
+}
+
+.last-vv-contact p {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 0.85em;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+
+.quick-links {
+  display: flex;
+}
+
+.footer-top p {
+  padding-right: 6em;
+  color: #777;
+}
+
+.list-info-lavi li a {
+  color: #ffffff;
+  font-size: 0.85em;
+  letter-spacing: 1px;
+}
+
+h3.lavi_title {
+  font-size: 1.4em;
+  color: #fff;
+  font-weight: 500;
+}
+
+.last-vv-contact a {
+  color: #f1f1f1;
+}
+
+.vv-icons li {
+  display: inline-block;
+  margin: 0 1em;
+}
+
+.vv-icons li a span {
+  color: #333;
+  font-size: 1.2em;
+}
+
+.vv-icons li a span:hover {
+  color: #f4b200;
+}
+
+.news-letter-vv {
+  padding: 60px 80px;
+  background: #fdbd10;
+}
+
+p.news-para {
+  color: #333;
+  font-size: 1.1em;
+  font-weight: 500;
+}
+
+ul.list-info-lavi span {
+  margin-right: 0.5em;
+  color: #999;
+}
+
+.feature-grids.team span {
+  font-size: 1.5em;
+}
+
+.social-links {
+  display: flex;
+  padding-top: 0.5rem;
+}
+
+.social-btn {
+  margin-right: 5px;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border: 1px solid #ffffff;
+  border-radius: 35px;
+}

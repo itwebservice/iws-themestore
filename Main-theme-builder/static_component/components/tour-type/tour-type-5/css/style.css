@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/********** Top Attraction Section Start *************/
+
+.t-attraction-section {
+    padding: 71px 0 80px;
+}
+
+.t-attraction-title {
+    padding-bottom: 24px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+
+.t-attraction-title::before {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 50px;
+    background: #ef2853;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+}
+
+.t-attraction-discription {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 15px;
+    color: #666;
+    font-family: 'Roboto', sans-serif;
+}
+
+.t-attraction-title-content {
+    margin-bottom: 50px;
+}
+
+.t-attraction-img i {
+    color: #ef2853;
+    font-size: 48px;
+    margin-bottom: 15px;
+    transition: all .5s;
+}
+
+.t-attraction-item-title {
+    font-size: 15px;
+    font-weight: 500;
+    color: #333333e8;
+    font-family: poppins, sans-serif;
+    transition: all .5s;
+}
+
+.t-attraction-item:hover .t-attraction-item-title,
+.t-attraction-item:hover .t-attraction-img i {
+    color: #ffffff;
+}
+
+.t-attraction-item {
+    padding: 30px 20px;
+    border: 1px solid #f1f1f1;
+    transition: all .5s;
+    border-radius: 10px;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.t-attraction-item:hover {
+    background-color: #ef2853;
+    transition: all .5s;
+    color: #ffffff;
+}
+
+
+/********** Top Attraction Section End *************/
+
+
+/*************** Responsive Start ***************/
+
+@media (min-width: 1400px) {
+    .t-attraction-section .container {
+        max-width: 1200px;
+    }
+}
+
+
+/*************** Responsive End ***************/

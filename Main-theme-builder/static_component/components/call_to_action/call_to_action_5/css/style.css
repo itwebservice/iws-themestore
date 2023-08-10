@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.btn:focus {
+  box-shadow: none;
+}
+
+/************* Travel Bird Section Start ***************/
+
+.t-bird-section {
+  background-image: url("../images/email_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 96px 0;
+  background-position-y: 50%;
+  font-family: "Roboto", sans-serif;
+}
+
+.t-bird-section::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(113, 103, 255, 0.8);
+  z-index: 1;
+}
+
+.t-bird-content {
+  position: relative;
+  z-index: 2;
+}
+
+.t-bird-style {
+  font-size: 32px;
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.t-bird-title {
+  font-size: 34px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.4;
+  margin-bottom: 48px;
+}
+
+.t-bird-input {
+  border-radius: 5px;
+  width: 680px;
+  max-width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.t-bird-input .form-control {
+  padding: 10px 16px;
+}
+
+.t-bird-btn {
+  padding: 8px 40px;
+  font-size: 18px;
+  line-height: 28px;
+  border-radius: 5px;
+  height: 46px;
+  font-weight: 500;
+  color: #fff;
+  background-color: var(--btnColor);
+  box-shadow: 0px 0px 12px 0px rgb(249 103 104 / 35%);
+}
+
+.t-bird-btn:hover {
+  background-color: var(--btnHover) !important;
+  color: #fff;
+}
+
+.t-bird-input .form-control {
+  background-color: #f8f7fc;
+}
+
+.t-bird-input .form-control::placeholder {
+  color: #999;
+  font-size: 14px;
+}
+
+.form-control:focus {
+  color: #999;
+  border-color: #ced4da;
+  box-shadow: none;
+}
+
+/************* Travel Bird Section End ***************/
+
+/********** Responsive Start ***********/
+
+@media (min-width: 1400px) {
+  .t-bird-section .container {
+    max-width: 1200px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .t-bird-input {
+    width: 540px;
+  }
+}
+
+@media (max-width: 991px) {
+  .t-bird-input {
+    width: 100%;
+  }
+  .t-bird-section {
+    background-position-x: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  .t-bird-title {
+    font-size: 24px;
+  }
+}
+
+/********** Responsive End ***********/

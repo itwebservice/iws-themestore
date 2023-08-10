@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.btn:focus {
+  box-shadow: none;
+}
+
+/************ Crafting Section Start *******************/
+
+.cust-mg {
+  margin: 30px 0;
+}
+
+.crafting-section {
+  background-image: url("../images/crafting-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 130px 0;
+}
+
+.crafting-title-content {
+  margin-bottom: 94px;
+}
+
+.crafting-subtitle {
+  font-size: 12px;
+  line-height: 20px;
+  color: #939393;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+}
+
+.crafting-title {
+  font-weight: 600;
+  color: #232323;
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 15px;
+}
+
+.crafting-points {
+  background-color: #ffffff;
+  padding: 64px;
+  border-radius: 10px;
+}
+
+.crafting-points-number {
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 40px;
+  color: var(--primaryColor);
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.crafting-points-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  line-height: 26px;
+  font-family: "Poppins", sans-serif;
+}
+
+.crafting-points-discription {
+  font-size: 14px;
+  color: #6f6f6f;
+  margin-bottom: 25px;
+  font-family: "Roboto", sans-serif;
+}
+
+.crafting-points-btn {
+  padding: 0;
+  border-bottom: 1px solid;
+  border-radius: 0;
+}
+
+.crafting-points-btn {
+  padding: 0;
+  border-bottom: 1px solid;
+  border-radius: 0;
+  font-size: 12px;
+  color: #232323;
+  font-weight: 600;
+  transition: all 0.5s;
+  font-family: "Poppins", sans-serif;
+}
+
+.crafting-points-btn:hover {
+  color: var(--primaryColor);
+  transition: all 0.5s;
+}
+
+/************ Crafting Section Start *******************/
+
+/*********** Responsive Start ************/
+
+@media (min-width: 1400px) {
+  .crafting-section .container {
+    max-width: 1170px;
+  }
+}
+
+@media (max-width: 1599px) {
+  .crafting-section {
+    background-position-x: 48%;
+  }
+}
+
+@media (max-width: 1199px) {
+  .crafting-points {
+    padding: 34px;
+  }
+}
+
+@media (max-width: 991px) {
+  .crafting-points {
+    margin-bottom: 30px;
+    padding: 40px;
+  }
+  .crafting-content > .row {
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 767px) {
+  .crafting-points {
+    padding: 50px;
+  }
+  .ctafting-br {
+    display: none;
+  }
+  .crafting-title-content {
+    margin-bottom: 30px;
+  }
+  .crafting-title {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .crafting-points-number {
+    font-size: 24px;
+  }
+}
+
+/*********** Responsive End ************/

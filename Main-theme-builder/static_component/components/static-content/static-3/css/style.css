@@ -1,0 +1,149 @@
+.bgprimary {
+  background: #026cb8;
+}
+
+.padding {
+  padding: 7.5rem 0;
+}
+
+.whitecolor {
+  color: #ffffff;
+}
+
+.process-wrapp {
+  overflow: hidden;
+  display: table;
+  table-layout: fixed;
+  margin: 0 15px;
+}
+
+.process-wrapp,
+.process-wrapp li,
+.process-wrapp li > .pro-step {
+  z-index: 1;
+}
+
+.process-wrapp li,
+.process-wrapp li > .pro-step {
+  text-align: center;
+}
+
+.process-wrapp li {
+  padding: 70px 15px 0 15px;
+  display: table-cell;
+}
+
+.process-wrapp li:hover {
+  cursor: pointer;
+}
+
+.process-wrapp li > .pro-step {
+  height: 90px;
+  width: 90px;
+  line-height: 90px;
+  border: 1px solid #fff;
+  font-size: 28px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.process-wrapp li > .pro-step,
+.process-wrapp li > .pro-step::before {
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.process-wrapp.no-rounded li > .pro-step,
+.process-wrapp.no-rounded li > .pro-step::before {
+  -webkit-border-radius: 0 !important;
+  border-radius: 0 !important;
+}
+
+.process-wrapp li > .pro-step::before {
+  background: #ffb902;
+  opacity: 0;
+  visibility: hidden;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.process-wrapp li p:first-child {
+  font-size: 15px;
+}
+
+.process-wrapp li p:last-child {
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+
+.process-wrapp li:hover > .pro-step {
+  border-color: transparent;
+  color: #fff;
+}
+.process-wrapp li.active > .pro-step {
+  border-color: transparent;
+  color: #fff;
+}
+.process-wrapp li.active:hover > .pro-step {
+  border-color: transparent !important;
+}
+
+.process-wrapp li:hover > .pro-step::before {
+  opacity: 1;
+  visibility: visible;
+  border-radius: 50%;
+}
+.process-wrapp li.active > .pro-step::before {
+  opacity: 1;
+  visibility: visible;
+  border-radius: 50%;
+}
+.process-wrapp li.active:hover > .pro-step::before {
+  opacity: 1 !important;
+  visibility: visible !important;
+  border-radius: 50%;
+}
+.process-wrapp:hover li.active > .pro-step::before {
+  opacity: 0;
+  visibility: hidden;
+}
+.process-wrapp:hover li.active > .pro-step {
+  border-color: #fff;
+}
+
+.process-wrapp li::before,
+.process-wrapp li::after {
+  height: 1px;
+  top: 115px;
+  background: rgba(255, 255, 255, 0.5);
+  width: 30%;
+  z-index: -1;
+  margin: 0;
+}
+
+.process-wrapp li:first-child::before,
+.process-wrapp li:last-child::after {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.process-wrapp li::before {
+  left: 0;
+}
+
+.process-wrapp li::after {
+  right: 0;
+}
+
+.rotate-180 {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.collapsePagesSideMenu i {
+  transition: all 0.3s linear;
+}

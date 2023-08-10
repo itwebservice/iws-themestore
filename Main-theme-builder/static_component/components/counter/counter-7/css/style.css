@@ -1,0 +1,138 @@
+section.section {
+  margin: 0;
+  padding: 80px 0 60px 0;
+}
+
+#parallax1 {
+  background-image: url(../images/img1.jpg);
+  margin: 30px 0;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.color-white.txt-shadow {
+  text-shadow: 1px 1px 0 rgb(0 0 0 / 20%);
+}
+
+.color-white {
+  color: #fff;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.stats .icon {
+  margin: 0 0 20px 0;
+}
+
+.stats strong.number {
+  font-size: 38px;
+}
+
+.stats span.text {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.numbers {
+  background-attachment: fixed;
+}
+
+.numbers .item img.tobotm {
+  -webkit-transform: rotateX(180deg);
+  transform: rotateX(180deg);
+  top: 15%;
+}
+
+.numbers .item img {
+  position: absolute;
+  width: 50%;
+  right: -30%;
+  top: 30%;
+  z-index: 4;
+}
+
+.elementor img {
+  height: auto;
+  max-width: 100%;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.numbers .item .icon {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: #fff;
+  border-radius: 50%;
+  border: 7px solid rgba(255, 255, 255, 0.1);
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.numbers .item .icon span,
+.numbers .item .icon i {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  line-height: 80px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
+
+.numbers .item:hover .icon .front {
+  -webkit-transform: translateX(-120%);
+  transform: translateX(-120%);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.numbers .item .icon .back {
+  -webkit-transform: translateX(120%);
+  transform: translateX(120%);
+  background: rgba(255, 255, 255, 0.2);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  color: #fff;
+}
+
+.numbers .item:hover .icon .back {
+  -webkit-transform: translateX(0%);
+  transform: translateX(0%);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.numbers .item h3 {
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 10px;
+  font-size: 36px;
+  color: #fff;
+}
+
+.numbers .item h6 {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+  .numbers .item img {
+    display: none;
+  }
+  .numbers {
+    padding: 20px;
+  }
+}

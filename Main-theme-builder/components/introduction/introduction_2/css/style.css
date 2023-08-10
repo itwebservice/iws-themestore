@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.btn:focus {
+  box-shadow: none;
+}
+
+/************* Theme Section Start **************/
+
+.theme-section {
+  padding: 130px 0;
+}
+
+.theme-img {
+  width: 457px;
+  max-width: 100%;
+}
+
+.theme-subtitle {
+  color: var(--primaryColor);
+  line-height: 23px;
+  margin-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.theme-title {
+  color: #232323;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  line-height: 40px;
+  margin-bottom: 25px;
+}
+
+.theme-discription {
+  color: #6f6f6f;
+  font-size: 14px;
+  margin-bottom: 30px;
+  font-family: "Roboto", sans-serif;
+}
+
+.theme-btn {
+  background: var(--btnColor);
+  border-color: var(--btnColor);
+  color: #fff;
+  font-size: 11px;
+  padding: 7px 28px;
+  font-family: "Poppins", sans-serif;
+  border: 2px solid var(--btnColor);
+  text-transform: uppercase;
+  transition: all 0.5s;
+  font-weight: 600;
+}
+
+.theme-btn:hover {
+  color: var(--btnHover);
+  background-color: transparent;
+  transition: all 0.5s;
+}
+
+.theme-btn i {
+  font-size: 16px;
+  transition: all 0.5s;
+  margin-right: 5px;
+}
+
+.theme-btn:hover i {
+  color: black;
+  transition: all 0.5s;
+}
+
+/************* Theme Section End **************/
+
+/*************** Responsive Start *************/
+
+@media (min-width: 1400px) {
+  .theme-section .container {
+    max-width: 1170px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .theme-img {
+    width: 400px;
+  }
+}
+
+@media (max-width: 991px) {
+  .theme-img {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .theme-details {
+    text-align: center;
+    padding: 0 55px;
+  }
+  .theme-title {
+    font-size: 24px;
+    margin-bottom: 18px;
+  }
+  .theme-section {
+    padding: 75px 0;
+  }
+  .theme-subtitle {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .theme-details {
+    padding: 0;
+  }
+  .theme-title {
+    font-size: 20px;
+    margin-bottom: 18px;
+    line-height: 30px;
+  }
+}
+
+/*************** Responsive End *************/

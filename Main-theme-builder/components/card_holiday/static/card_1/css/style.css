@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.section-title {
+  font-family: "Poppins", sans-serif;
+  color: #4f4b8b;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.dest-sub {
+  font-family: "Poppins", sans-serif;
+  color: #a1a0b9;
+  line-height: 1.5;
+}
+
+.untree_co-section {
+  padding: 30px 0;
+}
+.media-1 {
+  text-align: left;
+}
+.media-1 img {
+  border-radius: 20px;
+}
+.media-1 .loc .icon-room {
+  position: relative;
+}
+.media-1 .loc .icon-room:after {
+  content: "";
+  width: 24px;
+  height: 24px;
+  background: rgba(26, 55, 77, 0.1);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border-radius: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.media-1 .deal {
+  font-size: 16px;
+  margin-bottom: 20px;
+  display: block;
+}
+.media-1 h3 {
+  font-size: 20px;
+}
+.media-1 h3 a {
+  color: #000000;
+}
+.media-1 .price {
+  font-size: 15px;
+  color: #1a374d;
+  font-weight: 700;
+  position: relative;
+  top: -2px;
+}
+.media-1 .price sup {
+  font-weight: 400;
+  font-size: 16px;
+  top: -7px;
+}

@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  text-decoration: none !important;
+}
+.main-title {
+  position: relative;
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.main-title h2 {
+  text-transform: capitalize;
+  font-weight: 300;
+  color: #18191d;
+  line-height: 1.2;
+  max-width: 650px;
+  margin-bottom: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-title h5 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+  text-transform: capitalize;
+  color: var(--primaryColor);
+}
+
+.mt-20px {
+  margin-top: 20px;
+}
+.mb-20px {
+  margin-bottom: 20px;
+}
+
+.meta-tags {
+  padding-left: 0;
+}
+
+.news_item {
+  background: #ffffff;
+  position: relative;
+}
+.news_item.blog-one:hover img,
+.news_item.blog-two:hover img {
+  transform: scale(1.03);
+}
+.news_item.shadow {
+  -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+}
+.news_item .news_desc {
+  padding: 40px 30px;
+}
+.meta-tags li,
+.meta-tags li a {
+  display: inline-block;
+}
+.meta-tags > li + li {
+  margin-left: 10px;
+}
+.meta-tags li a {
+  color: #a5a5a5;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.meta-tags li a > i {
+  font-size: 17px;
+  margin-right: 5px;
+}
+.meta-tags li a > i,
+.meta-tags > li + li::before {
+  vertical-align: middle;
+}
+.meta-tags li a:hover,
+.meta-tags li a:focus {
+  color: var(--primaryColor);
+}
+.news_item:hover h3 a {
+  color: #dc3545;
+}
+
+.blog-one .meta-tags li a:hover,
+.meta-tags li a:focus,
+.blog-one.news_item:hover h3 a {
+  color: var(--primaryColor);
+}
+.blog-two .meta-tags li a:hover,
+.meta-tags li a:focus,
+.blog-two.news_item:hover h3 a {
+  color: var(--primaryColor);
+}
+
+.btn-black {
+  border-color: #202020;
+  background-color: #202020;
+  color: #ffffff;
+}
+
+.btn-setting {
+  padding: 9px 34px;
+  width: auto;
+  display: inline-block;
+  font-weight: 400;
+  line-height: 25px;
+  font-size: 15px;
+  text-transform: capitalize;
+  text-align: center;
+  -webkit-border-radius: 36px;
+  border-radius: 36px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  border: 1px solid transparent;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease !important;
+}
+
+.btn-hvr:hover,
+.btn-hvr:focus {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.btn-hvr-setting {
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+}
+.text-white {
+  color: #fff !important;
+}
+.btn-hvr-setting-inner {
+  position: relative;
+  display: block;
+  height: 100%;
+  overflow: hidden;
+}
+
+.btn-hvr-setting:hover .btn-hvr-effect,
+.btn-hvr-setting-main:hover .btn-hvr-effect,
+.btn-hvr-setting-main:active .btn-hvr-effect,
+.btn-hvr-setting-main:focus .btn-hvr-effect {
+  -webkit-transform: translateZ(0) scale(1.7);
+  transform: translateZ(0) scale(1.7) !important;
+}
+
+.btn-hvr-summer-sky .btn-hvr-effect {
+  background-color: #dc3545;
+  border-color: #dc3545;
+  color: #ffffff;
+}
+.btn-hvr-effect:nth-child(1) {
+  left: 0;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s !important;
+}
+.btn-hvr-effect:nth-child(2) {
+  left: 30%;
+  -webkit-transition-delay: 0.08s;
+  transition-delay: 0.08s !important;
+}
+.btn-hvr-effect:nth-child(3) {
+  left: 60%;
+  -webkit-transition-delay: 0.16s;
+  transition-delay: 0.16s !important;
+}
+.btn-hvr-effect:nth-child(4) {
+  left: 90%;
+  -webkit-transition-delay: 0.24s;
+  transition-delay: 0.24s !important;
+}
+.btn-hvr-effect {
+  position: absolute;
+  top: 0;
+  width: 25%;
+  height: 100%;
+  border-radius: 100%;
+  -webkit-transform: translate3d(0, 150%, 0) scale(1.7);
+  transform: translate3d(0, 150%, 0) scale(1.7);
+  -webkit-transition: -webkit-transform 0.45s;
+  transition: -webkit-transform 0.45s;
+  transition: transform 0.45s !important;
+  background: #ffffff;
+  border-color: #ffffff;
+}

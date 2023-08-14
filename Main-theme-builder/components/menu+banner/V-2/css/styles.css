@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=Roboto+Condensed:wght@400;700&display=swap');
+/* 
+font-family: 'Inter', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+*/
+
+/* -------------------------------------
+     Variables
+  ------------------------------------- */
+:root {
+    --primary-color: #d90429;
+    --secondary-color: #ffe500;
+
+    --white: #ffffff;
+    --black: #000000;
+
+    --font-color: #667085;
+    --font-color-light: #98a2b3;
+
+    --primary-font-family: 'Inter', sans-serif;
+    --secondary-font-family: 'Roboto Condensed', sans-serif;
+
+    /* Custom variables */
+    --header-height: 72px;
+}
+
+
+
+/* -------------------------------------
+      Reset Styles
+  ------------------------------------- */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    background: var(--white);
+    font-display: swap;
+    font-size: 0.936rem;
+    font-family: var(--primary-font-family);
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3);
+}
+
+body {
+    overflow-y: auto;
+    height: auto;
+}
+
+/* -------------------------------------
+      Header
+  ------------------------------------- */
+.c-header {
+    align-items: center;
+    border-bottom: 1px solid rgba(141, 153, 174, 0.5);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    height: var(--header-height);
+    padding: 14px 42px;
+    position: relative;
+}
+
+.c-header .menuBar {
+    flex-grow: 1;
+}
+
+.c-header .logo {
+    display: grid;
+    justify-content: flex-start;
+    place-items: center;
+}
+
+.c-header .logo img {
+    max-height: 32px;
+}
+
+/* --- Main menu style --- */
+.c-header .menus>ul,
+.c-header .settings>ul {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.c-header .menus .menu-item,
+.c-header .settings .menu-item,
+.c-header .child-menu-item {
+    border: 0;
+    background-color: transparent;
+    color: var(--black);
+    font: 500 0.95rem/1.2rem var(--primary-font-family);
+    padding: 6px 10px;
+    text-decoration: none;
+    outline: none;
+    position: relative;
+    z-index: 1;
+    transition: background-color ease 0.4s;
+}
+
+.c-header .menus .menu-item::before {
+    background-color: var(--secondary-color);
+    content: '';
+    bottom: 0;
+    height: 13px;
+    left: -5px;
+    position: absolute;
+    width: calc(100% + 10px);
+    z-index: -1;
+    transform: scaleX(0);
+    transform-origin: 0 100%;
+    transition: transform .3s cubic-bezier(.77, 0, .175, 1);
+}
+
+.c-header .menus li.active .menu-item::before,
+.c-header .menus li .menu-item.active::before,
+.c-header .menus .menu-item:hover::before {
+    transform: scaleX(1);
+}
+
+.c-header .menus .subMenus .menu-item {
+    margin-top: 1px;
+}
+
+
+/* --- Sub menus styles --- */
+.c-header .subMenus .child-menu-item:hover {
+    background-color: var(--secondary-color);
+}
+
+.c-header .subMenus .dropdown-menu {
+    border: 0;
+    background-color: var(--white);
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+    border-radius: 0;
+    margin-top: -2px !important;
+    padding-top: 24px;
+}
+
+.c-header .subMenus .dropdown-menu.show {
+    display: flex;
+}
+
+.c-header .subMenus .dropdown-menu .child-menu-item {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
+    display: block !important;
+    font-size: 0.8rem !important;
+    padding: 12px 16px !important;
+    width: 200px;
+}
+
+.c-header .subMenus .dropdown-menu .child-menu-item::before {
+    display: none;
+}
+
+.animate {
+    animation-duration: 0.3s;
+    -webkit-animation-duration: 0.3s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+}
+
+.slideIn {
+    -webkit-animation-name: slideIn;
+    animation-name: slideIn;
+}
+
+.c-header .settings {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.menuWithIcon {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+
+.menuWithIcon .icon {
+    font-size: 0.9rem;
+}
+
+.hamburgerMenu {
+    background-color: transparent;
+    border: 0;
+    color: var(--black);
+    font-size: 1.7rem;
+    padding: 0;
+    height: 32px;
+    width: 32px;
+}
+
+/* --- Sidebar for mobile --- */
+
+.c-sidebar {
+    background-color: var(--white);
+    color: var(--black);
+    max-width: 300px;
+}
+
+.c-sidebar .btn-close {
+    color: var(--white) !important;
+}
+
+.c-sidebar .mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.c-sidebar .mobile-menu .menu-item {
+    display: block;
+    background-color: transparent;
+    color: var(--black);
+    font: 500 0.95rem/1.2rem var(--primary-font-family);
+    padding: 14px 0;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    outline: none;
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 767px) {
+    .c-header {
+        padding: 12px 18px;
+    }
+
+    .c-header .logo img {
+        max-height: 24px;
+    }
+
+    .c-header .menus>ul,
+    .c-header .settings>ul {
+        gap: 10px;
+    }
+
+    .c-header .menus .menu-item,
+    .c-header .settings .menu-item {
+        font-size: 0.85rem;
+        line-height: 1.1rem;
+        padding: 6px 8px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .c-header {
+        padding: 12px 18px;
+    }
+
+    .c-header .logo img {
+        max-height: 24px;
+        margin-left: 8px;
+    }
+
+}
+
+/* -------------------------------------
+      Banner Slider
+  ------------------------------------- */
+.c-banner.type-01 {
+    position: relative;
+    height: auto;
+}
+
+.c-banner.type-01 .pageSlider .item {
+    display: block;
+    min-height: 400px;
+    max-height: calc(100vh);
+    height: auto;
+    position: relative;
+    width: 100%;
+}
+
+.c-banner.type-01 .pageSlider .sliderItem img {
+    background-size: cover;
+    min-height: 400px;
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+    transition: transform ease 0.5s;
+}
+
+.c-banner.type-01 .pageSlider .owl-nav {
+    position: absolute;
+    left: 0;
+    top: calc(50% - 20px);
+    height: 40px;
+    width: 100%;
+    z-index: 2;
+}
+
+.c-banner.type-01 .pageSlider .owl-nav .owl-prev,
+.c-banner.type-01 .pageSlider .owl-nav .owl-next {
+    background-color: var(--secondary-color);
+    display: grid;
+    font-size: 1.8rem;
+    height: 40px;
+    place-items: center;
+    padding: 0;
+    position: absolute;
+    width: 40px;
+
+}
+
+.c-banner.type-01 .pageSlider .owl-nav .owl-next {
+    right: 0;
+}
+
+.c-banner.type-01 .pageSlider .owl-nav .owl-prev {
+    left: 0;
+}
+
+.c-banner.type-01 .pageSlider .sliderItem::before {
+    background-color: rgba(0, 0, 0, 0.2);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.c-banner.type-01 .info-section {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: calc(50% - 30%);
+    height: 100%;
+    width: 60%;
+    z-index: 1;
+}
+
+.c-heading {
+    display: block;
+    color: var(--white);
+    font: 400 1rem/1.2rem var(--secondary-font-family);
+}
+
+.c-heading.h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3.2rem;
+}
+
+.c-heading.h2 {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+}
+
+
+@media screen and (max-width: 768px) {
+    .c-banner.type-01 .info-section {
+        padding: 12px;
+        left: calc(50% - 40%);
+        width: 80%;
+    }
+
+    .c-banner.type-01,
+    .c-banner.type-01 .pageSlider .item,
+    .c-banner.type-01 .pageSlider .sliderItem img {
+        height: auto;
+    }
+
+    .c-heading.h1 {
+        font-size: 1.8rem;
+        line-height: 2.1rem;
+    }
+
+    .c-heading.h2 {
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+    }
+}

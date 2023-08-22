@@ -1,3 +1,11 @@
+<?php 
+ include '../../../generic.php';
+
+$banner_1 = getDataApi('banner');
+// var_dump($banner_1);  
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -173,12 +181,13 @@
     <section class="c-banner type-01">
       <!-- *** Slider *** -->
       <div class="banner-slider-01 pageSlider d-none d-md-block">
+        <?php foreach($banner_1 as $banner){
+         ?>
         <div class="item sliderItem">
-          <img src="./images/parallax3.jpg" alt="travel" />
+          <img src="<?= BASE_URL_MAIN.$banner ?>" alt="travel" />
         </div>
-        <div class="item sliderItem">
-          <img src="./images/parallax2.jpg" alt="travel" />
-        </div>
+        <?php 
+        } ?>
       </div>
       <!-- *** Slider End *** -->
 

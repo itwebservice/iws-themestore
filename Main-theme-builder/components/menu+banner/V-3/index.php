@@ -1,3 +1,11 @@
+<?php 
+ include '../../../generic.php';
+
+$banner_3 = getDataApi('banner');
+// var_dump($banner_3);
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -26,7 +34,7 @@
             <i class="fa-solid fa-bars icon"></i>
           </a>
         </div>
-        <div class="col-md-2 col-8 nopadding">
+        <div class="col-md-2 col-9 nopadding">
           <div class="logo">
             <a href="javascript:void(0)" class="menu-item">
               <img src="./images/dark-logo.png" alt="'logo" />
@@ -44,9 +52,6 @@
               </li>
               <li>
                 <a href="javascript:void(0)" class="menu-item">Services</a>
-              </li>
-              <li>
-                <a href="javascript:void(0)" class="menu-item">Offers</a>
               </li>
               <li>
                 <a href="javascript:void(0)" class="menu-item">Enquiry</a>
@@ -84,7 +89,7 @@
             </ul>
           </nav>
         </div>
-        <div class="col-md-2 col-3 text-right nopadding">
+        <div class="col-md-2 col-2 text-right nopadding">
           <div class="settings">
             <ul>
               <li class="d-none d-sm-block">
@@ -93,35 +98,6 @@
                 </a>
               </li>
               <!-- Sub Menu -->
-              <li>
-                <div class="dropdown subMenus">
-                  <button
-                    class="dropdown-toggle menu-item"
-                    type="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    EN
-                  </button>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a href="javascript:void(0)" class="child-menu-item"
-                        >Action</a
-                      >
-                    </li>
-                    <li>
-                      <a href="javascript:void(0)" class="child-menu-item"
-                        >Another action</a
-                      >
-                    </li>
-                    <li>
-                      <a href="javascript:void(0)" class="child-menu-item"
-                        >Another action</a
-                      >
-                    </li>
-                  </ul>
-                </div>
-              </li>
             </ul>
           </div>
         </div>
@@ -183,34 +159,26 @@
     <section class="c-banner type-01">
       <!-- *** Slider *** -->
       <div class="banner-slider-02 pageSlider">
+      <?php foreach($banner_3 as $banner){
+         ?>
         <div class="item sliderItem">
-          <img src="./images/main-slider-1.jpg" alt="travel" />
+          <img src="<?= BASE_URL_MAIN.$banner ?>" alt="travel" />
           <!-- *** Info Section *** -->
           <div class="info-section">
             <h2 class="c-heading h1 text-center mb-4">
-              FIND THE BEST PLACES TO BE
+              Enjoy a beautiful stay.
             </h2>
             <h3 class="c-heading h2 text-center mb-2">
-              All the top locations – from restaurants and clubs, to cinemas,
-              galleries, and more.
+              In a rustic country setting.
             </h3>
+            <button class="c-button">Book Now</button>
           </div>
           <!-- *** Info Section End *** -->
         </div>
-        <div class="item sliderItem">
-          <img src="./images/main-slider-2.jpg" alt="travel" />
-          <!-- *** Info Section *** -->
-          <div class="info-section">
-            <h2 class="c-heading h1 text-center mb-4">hamburgerMenu</h2>
-            <h3 class="c-heading h2 text-center mb-2">
-              All the top locations – from restaurants and clubs, to cinemas,
-              galleries, and more.
-            </h3>
-            <div class="container-fluid mt-5"></div>
-          </div>
-          <!-- *** Info Section End *** -->
-        </div>
+        <?php 
+        } ?>
       </div>
+      
       <!-- *** Slider End *** -->
     </section>
     <!-- *** Slider End *** -->

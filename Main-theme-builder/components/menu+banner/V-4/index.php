@@ -1,3 +1,10 @@
+<?php 
+ include '../../../generic.php';
+
+$banner_4 = getDataApi('banner');
+// var_dump($banner_3);
+
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -5,10 +12,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>iTours Component :: Banner 2</title>
+    <title>iTours Component :: Banner 4</title>
     <link rel="stylesheet" href="../../../CommonFiles/css/all.min.css" />
     <link rel="stylesheet" href="../../../CommonFiles/css/bootstrap.min.css" />
     <link rel="stylesheet" href="../../../CommonFiles/css/slick.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../../CommonFiles/css/slimmenu.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -23,75 +35,40 @@
             role="button"
             aria-controls="offcanvasExample"
           >
-            <i class="fa-solid fa-bars icon"></i>
+            <i class="fa-solid fa-align-left"></i>
           </a>
         </div>
         <div class="col-md-2 col-9 nopadding">
           <div class="logo">
-            <a href="javascript:void(0)" class="menu-item">
-              <img src="./images/dark-logo.png" alt="'logo" />
+            <a href="javascript:void(0)">
+              <img src="./images/logo.webp" alt="logo" class="light" />
+              <img src="./images/logo-dark.webp" alt="logo" class="dark" />
             </a>
           </div>
         </div>
-        <div class="col-md-8 col-sm-2 d-sm-none d-none d-md-block nopadding">
+        <div
+          class="col-md-9 col-sm-2 d-sm-none d-none d-md-block nopadding text-right"
+        >
           <nav class="menus">
-            <ul>
-              <li class="active">
-                <a href="javascript:void(0)" class="menu-item active">Home</a>
-              </li>
+            <ul class="js-customMenuBar slimmenu">
               <li>
-                <a href="javascript:void(0)" class="menu-item">About Us</a>
+                <a href="#" class="menu-item active">Home</a>
               </li>
+              <li><a href="#" class="menu-item">Hotel</a></li>
               <li>
-                <a href="javascript:void(0)" class="menu-item">Services</a>
-              </li>
-              <li>
-                <a href="javascript:void(0)" class="menu-item">Enquiry</a>
-              </li>
-              <!-- Sub Menu -->
-              <li>
-                <div class="dropdown subMenus">
-                  <button
-                    class="dropdown-toggle menu-item"
-                    type="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    SubMenus
-                  </button>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a href="javascript:void(0)" class="child-menu-item"
-                        >Action</a
-                      >
-                    </li>
-                    <li>
-                      <a href="javascript:void(0)" class="child-menu-item"
-                        >Another action</a
-                      >
-                    </li>
-                    <li>
-                      <a href="javascript:void(0)" class="child-menu-item"
-                        >Another action</a
-                      >
-                    </li>
-                  </ul>
-                </div>
+                <a href="#" class="menu-item">Activities</a>
+                <ul>
+                  <li>
+                    <a href="#" class="menu-item">Sub Menu 1</a>
+                  </li>
+                  <li><a href="#" class="menu-item">Sub Menu 2</a></li>
+                </ul>
               </li>
             </ul>
           </nav>
         </div>
-        <div class="col-md-2 col-2 text-right nopadding">
-          <div class="settings">
-            <ul>
-              <li class="d-none d-sm-block">
-                <a href="javascript:void(0)" class="menuWithIcon menu-item">
-                  <i class="fa-solid fa-lock icon"></i> Login
-                </a>
-              </li>
-              <!-- Sub Menu -->
-            </ul>
-          </div>
+        <div class="col-md-1 col-2 nopadding">
+          <a href="javascript:void(0)" class="link-button float-right">Login</a>
         </div>
       </div>
 
@@ -151,48 +128,36 @@
     <section class="c-banner type-01">
       <!-- *** Slider *** -->
       <div class="banner-slider-02 pageSlider">
+      <?php foreach($banner_4 as $banner){
+         ?>
         <div class="item sliderItem">
-          <img src="./images/main-slider-1.jpg" alt="travel" />
+          <img src="<?= BASE_URL_MAIN.$banner ?>" alt="travel" />
           <!-- *** Info Section *** -->
           <div class="info-section">
-            <h2 class="c-heading h1 text-center mb-4">
-              Enjoy a beautiful stay.
+            <h2 class="c-heading h1 mb-4">
+              Breathing life into brands through stunning design
             </h2>
-            <h3 class="c-heading h2 text-center mb-2">
-              In a rustic country setting.
-            </h3>
+            <h3 class="c-heading h2 mb-2">In a rustic country setting.</h3>
             <button class="c-button">Book Now</button>
           </div>
           <!-- *** Info Section End *** -->
         </div>
-        <div class="item sliderItem">
-          <img src="./images/main-slider-2.jpg" alt="travel" />
-          <!-- *** Info Section *** -->
-          <div class="info-section">
-            <h2 class="c-heading h1 text-center mb-4">Connect with others</h2>
-            <h3 class="c-heading h2 text-center mb-2">
-              All the top locations – from restaurants and clubs, to cinemas,
-              galleries, and more.
-            </h3>
-            <button class="c-button">Book Now</button>
-          </div>
-          <!-- *** Info Section End *** -->
-        </div>
+        <?php 
+        } ?>
       </div>
       <!-- *** Slider End *** -->
     </section>
     <!-- *** Slider End *** -->
+
+    <section class="c-banner type-01">test</section>
     <script
-      src="https://code.jquery.com/jquery-3.6.3.slim.min.js"
-      integrity="sha256-ZwqZIVdD3iXNyGHbSYdsmWP//UBokj2FHAxKuSBKDSo="
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
       crossorigin="anonymous"
     ></script>
-    <script
-      src="../../../CommonFiles/js/bootstrap.bundle.min.js"
-      async
-      defer
-    ></script>
-    <script src="../../../CommonFiles/js/slick.min.js" async defer></script>
-    <script src="./js/script.js" async defer></script>
+    <script src="../../../CommonFiles/js/bootstrap.bundle.min.js"></script>
+    <script src="../../../CommonFiles/js/slick.min.js"></script>
+    <script src="../../../CommonFiles/js/jquery.slimmenu.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>

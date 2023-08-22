@@ -1,3 +1,10 @@
+<?php 
+ include '../../../generic.php';
+
+$banner_5 = getDataApi('banner');
+// var_dump($banner_3);
+
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -213,9 +220,14 @@
     <!-- *** Header End *** -->
 
     <!-- *** Slider *** -->
+    
     <section
       class="c-banner type-02"
-      style="background-image: url('./images/1920x1080-2.jpg')"
+      <?php foreach($banner_5 as $banner){
+         ?>
+      style="background-image: url('<?= BASE_URL_MAIN.$banner ?>')"
+      <?php 
+        } ?>
     >
       <div class="info-section">
         <div class="bannerLogo-section">
@@ -389,6 +401,7 @@
         </div>
       </div>
     </section>
+    
     <!-- *** Slider End *** -->
     <script
       src="https://code.jquery.com/jquery-3.6.3.min.js"
